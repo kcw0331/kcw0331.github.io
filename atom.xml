@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
-    <description>김창우 blog</description>
+    <description>창우의 블로그</description>
     <link>
     https://kcw0331.github.io</link>
     
       
       <item>
-        <title>MS_AI_School - 1주차(3)</title>
+        <title>msai - 1주차(3)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
         <pubDate>Wed, 05 Oct 2022 09:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/msai-1weeks(3)</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/msai-1weeks(3)</guid>
+        https://kcw0331.github.io/_posts/msai-1weeks(3)</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/_posts/msai-1weeks(3)</guid>
       </item>
       
     
@@ -33,14 +34,15 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
         <pubDate>Tue, 04 Oct 2022 09:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/msai-1weeks(2)</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/msai-1weeks(2)</guid>
+        https://kcw0331.github.io/_posts/msai-1weeks(2)</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/_posts/msai-1weeks(2)</guid>
       </item>
       
     
@@ -52,14 +54,15 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
         <pubDate>Tue, 04 Oct 2022 09:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/msai-1weeks(1)</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/msai-1weeks(1)</guid>
+        https://kcw0331.github.io/_posts/msai-1weeks(1)</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/_posts/msai-1weeks(1)</guid>
       </item>
       
     
@@ -77,8 +80,8 @@
         
         <pubDate>Tue, 09 Jun 2020 01:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/python-control-statement</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/python-control-statement</guid>
+        https://kcw0331.github.io/_posts/python-control-statement</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/_posts/python-control-statement</guid>
       </item>
       
     
@@ -87,12 +90,13 @@
         <title>Jekyll 강좌(1) - 블로그를 만들어 보아요.</title>
         
           <description>&lt;p&gt;이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;
+
 </description>
         
         <pubDate>Tue, 09 Jun 2020 01:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/jekyll-basic</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/jekyll-basic</guid>
+        https://kcw0331.github.io/_posts/jekyll-basic</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/_posts/jekyll-basic</guid>
       </item>
       
     
@@ -110,23 +114,8 @@
         
         <pubDate>Mon, 08 Jun 2020 01:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/python-basic</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/python-basic</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Gettysburg Address</title>
-        
-          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
-        <link>
-        https://kcw0331.github.io/gettysburg-address</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/gettysburg-address</guid>
+        https://kcw0331.github.io/_posts/python-basic</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/_posts/python-basic</guid>
       </item>
       
     
