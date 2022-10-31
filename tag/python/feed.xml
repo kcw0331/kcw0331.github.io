@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-31T22:41:38+09:00</updated>
+  <updated>2022-10-31T22:47:12+09:00</updated>
   <id>https://kcw0331.github.io/tag/python/feed.xml</id>
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Python 강좌(2) - Python 제어문</title>
-      <link href="https://kcw0331.github.io/_posts/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
+      <link href="https://kcw0331.github.io/tag/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/python-control-statement</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/python-control-statement</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -73,11 +73,11 @@
   
     <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://kcw0331.github.io/_posts/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <link href="https://kcw0331.github.io/tag/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/python-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/python-basic</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;

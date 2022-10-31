@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-31T22:41:38+09:00</updated>
+  <updated>2022-10-31T22:47:12+09:00</updated>
   <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">msai - 1주차(3)</title>
-      <link href="https://kcw0331.github.io/_posts/msai-1weeks(3)" rel="alternate" type="text/html" title="msai - 1주차(3)" />
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(3)" rel="alternate" type="text/html" title="msai - 1주차(3)" />
       <published>2022-10-05T09:40:00+09:00</published>
       <updated>2022-10-05T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/msai-1weeks(3)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/msai-1weeks(3)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/msai-1weeks(3)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(3)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
@@ -82,11 +82,11 @@
   
     <entry>
       <title type="html">msai - 1주차(1)</title>
-      <link href="https://kcw0331.github.io/_posts/msai-1weeks(1)" rel="alternate" type="text/html" title="msai - 1주차(1)" />
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(1)" rel="alternate" type="text/html" title="msai - 1주차(1)" />
       <published>2022-10-04T09:40:00+09:00</published>
       <updated>2022-10-04T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/msai-1weeks(1)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/msai-1weeks(1)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/msai-1weeks(1)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(1)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
@@ -175,11 +175,11 @@ AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
   
     <entry>
       <title type="html">msai - 1주차(2)</title>
-      <link href="https://kcw0331.github.io/_posts/msai-1weeks(2)" rel="alternate" type="text/html" title="msai - 1주차(2)" />
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(2)" rel="alternate" type="text/html" title="msai - 1주차(2)" />
       <published>2022-10-04T09:40:00+09:00</published>
       <updated>2022-10-04T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/msai-1weeks(2)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/msai-1weeks(2)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/msai-1weeks(2)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(2)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
@@ -399,11 +399,11 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
   
     <entry>
       <title type="html">Python 강좌(2) - Python 제어문</title>
-      <link href="https://kcw0331.github.io/_posts/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
+      <link href="https://kcw0331.github.io/tag/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/python-control-statement</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/python-control-statement</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -439,11 +439,11 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
   
     <entry>
       <title type="html">Jekyll 강좌(1) - 블로그를 만들어 보아요.</title>
-      <link href="https://kcw0331.github.io/_posts/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보아요." />
+      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보아요." />
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/jekyll-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/jekyll-basic">&lt;p&gt;이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/jekyll-basic</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/jekyll-basic">&lt;p&gt;이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;
 
 &lt;p&gt;blogmaker를 실행 할 때, bundle exec jekyll serve를 해줍니다.&lt;/p&gt;</content>
 
@@ -475,11 +475,11 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
   
     <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://kcw0331.github.io/_posts/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <link href="https://kcw0331.github.io/tag/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/_posts/python-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/_posts/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/python-basic</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
