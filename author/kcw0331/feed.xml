@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-31T22:48:45+09:00</updated>
+  <updated>2023-01-18T18:23:39+09:00</updated>
   <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
 
   
@@ -32,16 +32,63 @@
 
   
     <entry>
-      <title type="html">msai - 1주차(3)</title>
-      <link href="https://kcw0331.github.io/tag/msai-1weeks(3)" rel="alternate" type="text/html" title="msai - 1주차(3)" />
+      <title type="html">Python 자연어처리 - 파이썬 자연어처리 기본</title>
+      <link href="https://kcw0331.github.io/tag/python-NLP" rel="alternate" type="text/html" title="Python 자연어처리 - 파이썬 자연어처리 기본" />
+      <published>2023-01-18T14:40:00+09:00</published>
+      <updated>2023-01-18T14:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/python-NLP</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-NLP&quot;&gt;Python 자연어처리 - 파이썬 자연어처리 기본&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;2023년-1월-18일---타운홀강호용-선생님&quot;&gt;2023년 1월 18일 - 타운홀(강호용 선생님)&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datasets&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# pip install -U transformers datasets scipy scikit-learn
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 구성 목록은 아래와 같이 되어있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Msai - 1주차(3)</title>
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(3)" rel="alternate" type="text/html" title="Msai - 1주차(3)" />
       <published>2022-10-05T09:40:00+09:00</published>
       <updated>2022-10-05T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/msai-1weeks(3)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(3)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(3)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;html과-css-기초&quot;&gt;&lt;center&gt;HTML과 CSS 기초&lt;/center&gt;&lt;/h1&gt;
@@ -73,7 +120,7 @@
       
 
       
-        <summary type="html">Msai 리뷰는 여러 개로 구성되어 있습니다. msai - 1주차(1) msai - 1주차(2) msai - 1주차(3)</summary>
+        <summary type="html">MSAISchool 리뷰는 여러 개로 구성되어 있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3)</summary>
       
 
       
@@ -81,16 +128,16 @@
     </entry>
   
     <entry>
-      <title type="html">msai - 1주차(1)</title>
-      <link href="https://kcw0331.github.io/tag/msai-1weeks(1)" rel="alternate" type="text/html" title="msai - 1주차(1)" />
+      <title type="html">Msai - 1주차(1)</title>
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(1)" rel="alternate" type="text/html" title="Msai - 1주차(1)" />
       <published>2022-10-04T09:40:00+09:00</published>
       <updated>2022-10-04T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/msai-1weeks(1)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(1)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(1)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;개발자-마인드-과제&quot;&gt;&lt;center&gt;개발자 마인드 과제&lt;/center&gt;&lt;br /&gt;&lt;/h1&gt;
@@ -166,7 +213,7 @@ AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
       
 
       
-        <summary type="html">Msai 리뷰는 여러 개로 구성되어 있습니다. msai - 1주차(1) msai - 1주차(2) msai - 1주차(3)</summary>
+        <summary type="html">MSAISchool 리뷰는 여러 개로 구성되어 있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3)</summary>
       
 
       
@@ -174,16 +221,16 @@ AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
     </entry>
   
     <entry>
-      <title type="html">msai - 1주차(2)</title>
-      <link href="https://kcw0331.github.io/tag/msai-1weeks(2)" rel="alternate" type="text/html" title="msai - 1주차(2)" />
+      <title type="html">Msai - 1주차(2)</title>
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(2)" rel="alternate" type="text/html" title="Msai - 1주차(2)" />
       <published>2022-10-04T09:40:00+09:00</published>
       <updated>2022-10-04T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/msai-1weeks(2)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(2)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Msai 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(2)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 리뷰는 여러 개로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;2022년-10월-4일-박용-강사님구구컬리지-대표님&quot;&gt;&lt;center&gt;2022년 10월 4일 박용 강사님(구구컬리지 대표님)&lt;/center&gt;&lt;/h1&gt;
@@ -390,7 +437,7 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
       
 
       
-        <summary type="html">Msai 리뷰는 여러 개로 구성되어 있습니다. msai - 1주차(1) msai - 1주차(2) msai - 1주차(3)</summary>
+        <summary type="html">MSAISchool 리뷰는 여러 개로 구성되어 있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3)</summary>
       
 
       
@@ -403,10 +450,11 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-control-statement</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-NLP&quot;&gt;Python 자연어처리 - 파이썬 자연어처리 기본&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;이 글은 python의 제어문에 대한 내용을 담고 있습니다.&lt;/p&gt;</content>
@@ -430,7 +478,7 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
       
 
       
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary>
+        <summary type="html">Python 구성 목록은 아래와 같이 되어있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
       
 
       
@@ -438,8 +486,8 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
     </entry>
   
     <entry>
-      <title type="html">Jekyll 강좌(1) - 블로그를 만들어 보아요.</title>
-      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보아요." />
+      <title type="html">Jekyll 강좌(1) - 블로그를 만들어 보았습니다.</title>
+      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보았습니다." />
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/jekyll-basic</id>
@@ -479,10 +527,11 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-NLP&quot;&gt;Python 자연어처리 - 파이썬 자연어처리 기본&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;이 글은 python basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;</content>
@@ -506,7 +555,7 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
       
 
       
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary>
+        <summary type="html">Python 구성 목록은 아래와 같이 되어있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
       
 
       
