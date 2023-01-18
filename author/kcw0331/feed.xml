@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-01-18T22:54:56+09:00</updated>
+  <updated>2023-01-18T23:10:30+09:00</updated>
   <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
 
   
@@ -253,14 +253,15 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
     </entry>
   
     <entry>
-      <title type="html">Coding - 이것이 코딩 테스트이다.</title>
-      <link href="https://kcw0331.github.io/tag/coding-thiscoding" rel="alternate" type="text/html" title="Coding - 이것이 코딩 테스트이다." />
+      <title type="html">Coding - 순차 탐색</title>
+      <link href="https://kcw0331.github.io/tag/coding-thiscoding(20230117)" rel="alternate" type="text/html" title="Coding - 순차 탐색" />
       <published>2023-01-17T09:40:00+09:00</published>
       <updated>2023-01-17T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/coding-thiscoding</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-thiscoding">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/coding-thiscoding(20230117)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-thiscoding(20230117)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding&quot;&gt;Coding - thiscoding&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230116)&quot;&gt;Coding - 두 배열의 원소 교체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;/ul&gt;
@@ -314,7 +315,87 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
       
 
       
-        <summary type="html">코딩테스트 공부 목록은 아래와 같이 되어있습니다. Coding - thiscoding</summary>
+        <summary type="html">코딩테스트 공부 목록은 아래와 같이 되어있습니다. Coding - 두 배열의 원소 교체 Coding - 순차 탐색</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Coding - 배열의 원소 교체</title>
+      <link href="https://kcw0331.github.io/tag/coding-thiscoding(20230116)" rel="alternate" type="text/html" title="Coding - 배열의 원소 교체" />
+      <published>2023-01-16T09:40:00+09:00</published>
+      <updated>2023-01-16T09:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/coding-thiscoding(20230116)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-thiscoding(20230116)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230116)&quot;&gt;Coding - 두 배열의 원소 교체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;두-배열의-원소-교체&quot;&gt;두 배열의 원소 교체&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고자료 : &lt;a href=&quot;https://books.google.co.kr/books?id=vBz-DwAAQBAJ&amp;amp;printsec=frontcover&amp;amp;dq=%EC%9D%B4%EA%B2%83%EC%9D%B4+%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%8B%A4.&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwiTn8CWnNH8AhVnlFYBHZZMBPQQ6AF6BAgJEAI#v=onepage&amp;amp;q=%EC%9D%B4%EA%B2%83%EC%9D%B4%20%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%8B%A4.&amp;amp;f=false&quot;&gt;이것이 코딩테스트이다.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-입력-조건&quot;&gt;1. 입력 조건&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;첫 번째 줄에 N, K가 공백으로 구분되어 입력된다.(1 &amp;lt;= N &amp;lt;= 100,000, 0 &amp;lt;= K &amp;lt;= N)&lt;/li&gt;
+  &lt;li&gt;두 번째 줄에 배열 A의 원소들이 공백으로 구분되어 입력된다.&lt;/li&gt;
+  &lt;li&gt;모든 원소는 10,000,000보다 작은 자연수이다.&lt;/li&gt;
+  &lt;li&gt;세 번째 줄에 배열 B의 원소들이 공백으로 구분되어 입력된다.&lt;/li&gt;
+  &lt;li&gt;모든 원소는 10,000,000보다 작은 자연수입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-출력-조건&quot;&gt;2. 출력 조건&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;최대 K번의 바꿔치기 연산을 수행하여 만들 수 있는 배열 A의 모든 원소의 합의 최댓값을 출력한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# N, K를 입력받기
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 배열 A의 모든 원소를 입력받기
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 배열 B의 모든 원소를 입력받기
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 배열 A는 오름차순으로 정렬
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 배열 B는 내림차순으로 정렬
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 첫 번째 인덱스부터 확인하며, 두 배열의 원소를 최대 K번 비교
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# A의 원소가 B의 원소보다 작은 경우
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 두 원소를 교체
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# A의 원소가 B의 원소보다 크거나 같을 때, 반복문을 탈출
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 배열 A의 모든 원소의 합을 출력
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="coding" />
+      
+
+      
+        <summary type="html">코딩테스트 공부 목록은 아래와 같이 되어있습니다. Coding - 두 배열의 원소 교체 Coding - 순차 탐색</summary>
       
 
       
@@ -690,6 +771,100 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
     </entry>
   
     <entry>
+      <title type="html">Msai - 1주차(1)</title>
+      <link href="https://kcw0331.github.io/tag/msai-1weeks(1)" rel="alternate" type="text/html" title="Msai - 1주차(1)" />
+      <published>2022-10-04T09:40:00+09:00</published>
+      <updated>2022-10-04T09:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/msai-1weeks(1)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(1)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;개발자-마인드-과제&quot;&gt;&lt;center&gt;개발자 마인드 과제&lt;/center&gt;&lt;br /&gt;&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;내가 가고 싶은 회사 -&amp;gt; LG CNS의 AI빅데이터, KT DS의 AI &amp;amp; Bigdata, 한화 테크인 AI연구원
+데이터/AI -&amp;gt; 데이터 사이언티스트, 데이터 엔지니어링, 데이터 분석가
+AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;어떤 문제를 해결하고 싶으신가요?(어떤 프로그램을 만들어보고 싶으신가요?)
+    &lt;ul&gt;
+      &lt;li&gt;MS AI School을 통해 학습을 진행해 나가면서, AI Deeplearning과 Machinelearing을 통해 만들어 보고 싶은 프로그램은 현재
+한화 테크윈, LG CNS와 KT DS에서도 만들었겠지만, 카메라 안에 딥러닝과 머신러닝 프로그램을 장착하여 카메라가 찍으면서 사물
+인지 사람인지 등을 바로 바로 학습을 하고 학습하여 만들어진 결과와 시간을 데이터를 받아와서 다시 데이터를 받아온 것을 분석
+하는 것을 하고 싶습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;프로그램을 정했다면 해당 프로그램을 개발하기 위해서 필요한 기술스택을 찾아서 작성해보세요.&lt;br /&gt;
+  (LG CNS의 AI)
+    &lt;ul&gt;
+      &lt;li&gt;다양한 산업분야(제조/물류/서비스/공공/금융 등)의 AI 플랫폼 구축&lt;/li&gt;
+      &lt;li&gt;이미지인식/자연어이해/예측분석 Deep Learning 알고리즘 개발&lt;/li&gt;
+      &lt;li&gt;AI, 머신러닝, 딥러닝, AI모델링, VISION, 시각화AI, 챗봇, 언어AI
+  (KT DS의 AI&amp;amp;빅데이터)&lt;/li&gt;
+      &lt;li&gt;기술: 빅데이터(비정형, 실시간 처리/분석), 인공지능(자연어처리, 딥러닝, 머신러닝 등) 분야 전문가 보유&lt;/li&gt;
+      &lt;li&gt;솔루션: 빅데이터 솔루션, AI 서비스 플랫폼 “AICentro DL Studio”보유&lt;/li&gt;
+      &lt;li&gt;경험: 통신, 금융 중심의 빅데이터/AI 시스템 구축 Know-how 보유
+  (LG 유플러스의 빅데이터)&lt;/li&gt;
+      &lt;li&gt;통계/머신러닝/데이터 마이닝 등 관련 분야의 석/박사 학위 또는 그에 준하는 경력 소지자&lt;/li&gt;
+      &lt;li&gt;빅데이터 분석 관련 자격 보유(빅데이터분석가, ADsP, ADP등)&lt;/li&gt;
+      &lt;li&gt;R/Python/SQL 등을 사용하여 데이터를 핸들링하고 대규모 데이터 셋에서 분석 및 통찰력 도출&lt;/li&gt;
+      &lt;li&gt;다양한 통계 분석 방법/머신러닝 기술에 대한 높은 이해도 및 활용 능력&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MS AI 스쿨을 통해 학습 하고 싶으신 걸(구체적으로) 작성해주세요.
+    &lt;ul&gt;
+      &lt;li&gt;현재까지는 딥러닝을 통해 간단하게 프로그래밍을 하는 작업을 해 왔다면, MS AI 스쿨을 통해 프로그래밍만 하는 것이 아니라
+직접 프로그램을 만들어서 배포를 하는 것을 해보고 싶습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;학습이 완료됐다는 걸 알 수 있게 질문을 작성해보세요.
+    &lt;ul&gt;
+      &lt;li&gt;하고 싶은 프로그램이 원하는 데로 잘 작동을 하게 된다면 학습이 완료가 되었구나 라고 하고 싶습니다.
+        &lt;ol&gt;
+          &lt;li&gt;카메라 안에 있는 딥러닝 프로그램이 사람인지 사물인지를 인식하는가?&lt;/li&gt;
+          &lt;li&gt;사물의 크기를 인식하는가?&lt;/li&gt;
+          &lt;li&gt;피사체가 어두워 졌을때에도 사람과 사물을 잘 인식하는 가?&lt;/li&gt;
+          &lt;li&gt;카메라를 통해 만들어진 프로그램을 통해 만들어진 데이터로 예측을 한 것이 예측이 잘 맞아 떨어지는가?&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="msai" />
+      
+
+      
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Msai - 1주차(2)</title>
       <link href="https://kcw0331.github.io/tag/msai-1weeks(2)" rel="alternate" type="text/html" title="Msai - 1주차(2)" />
       <published>2022-10-04T09:40:00+09:00</published>
@@ -887,100 +1062,6 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
 &lt;/ul&gt;
 
 &lt;p&gt;즉, 애자일 방법론은 고객의 고객에 의한, 고객을 위한 개발 방법론을 알 수 있다. 미래를 미리 예상해 정해 놓은 계획대로 움직이기 보다는 고객의 요구와 개발 상황에 맞게 유동적으로 개발할 수 있는 개발 방법론이 바로 애자일의 가장 큰 특징이다.2020-06-08-jekyll-basic.md&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>kcw0331</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="msai" />
-      
-
-      
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Msai - 1주차(1)</title>
-      <link href="https://kcw0331.github.io/tag/msai-1weeks(1)" rel="alternate" type="text/html" title="Msai - 1주차(1)" />
-      <published>2022-10-04T09:40:00+09:00</published>
-      <updated>2022-10-04T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/msai-1weeks(1)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(1)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;개발자-마인드-과제&quot;&gt;&lt;center&gt;개발자 마인드 과제&lt;/center&gt;&lt;br /&gt;&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;내가 가고 싶은 회사 -&amp;gt; LG CNS의 AI빅데이터, KT DS의 AI &amp;amp; Bigdata, 한화 테크인 AI연구원
-데이터/AI -&amp;gt; 데이터 사이언티스트, 데이터 엔지니어링, 데이터 분석가
-AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;어떤 문제를 해결하고 싶으신가요?(어떤 프로그램을 만들어보고 싶으신가요?)
-    &lt;ul&gt;
-      &lt;li&gt;MS AI School을 통해 학습을 진행해 나가면서, AI Deeplearning과 Machinelearing을 통해 만들어 보고 싶은 프로그램은 현재
-한화 테크윈, LG CNS와 KT DS에서도 만들었겠지만, 카메라 안에 딥러닝과 머신러닝 프로그램을 장착하여 카메라가 찍으면서 사물
-인지 사람인지 등을 바로 바로 학습을 하고 학습하여 만들어진 결과와 시간을 데이터를 받아와서 다시 데이터를 받아온 것을 분석
-하는 것을 하고 싶습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;프로그램을 정했다면 해당 프로그램을 개발하기 위해서 필요한 기술스택을 찾아서 작성해보세요.&lt;br /&gt;
-  (LG CNS의 AI)
-    &lt;ul&gt;
-      &lt;li&gt;다양한 산업분야(제조/물류/서비스/공공/금융 등)의 AI 플랫폼 구축&lt;/li&gt;
-      &lt;li&gt;이미지인식/자연어이해/예측분석 Deep Learning 알고리즘 개발&lt;/li&gt;
-      &lt;li&gt;AI, 머신러닝, 딥러닝, AI모델링, VISION, 시각화AI, 챗봇, 언어AI
-  (KT DS의 AI&amp;amp;빅데이터)&lt;/li&gt;
-      &lt;li&gt;기술: 빅데이터(비정형, 실시간 처리/분석), 인공지능(자연어처리, 딥러닝, 머신러닝 등) 분야 전문가 보유&lt;/li&gt;
-      &lt;li&gt;솔루션: 빅데이터 솔루션, AI 서비스 플랫폼 “AICentro DL Studio”보유&lt;/li&gt;
-      &lt;li&gt;경험: 통신, 금융 중심의 빅데이터/AI 시스템 구축 Know-how 보유
-  (LG 유플러스의 빅데이터)&lt;/li&gt;
-      &lt;li&gt;통계/머신러닝/데이터 마이닝 등 관련 분야의 석/박사 학위 또는 그에 준하는 경력 소지자&lt;/li&gt;
-      &lt;li&gt;빅데이터 분석 관련 자격 보유(빅데이터분석가, ADsP, ADP등)&lt;/li&gt;
-      &lt;li&gt;R/Python/SQL 등을 사용하여 데이터를 핸들링하고 대규모 데이터 셋에서 분석 및 통찰력 도출&lt;/li&gt;
-      &lt;li&gt;다양한 통계 분석 방법/머신러닝 기술에 대한 높은 이해도 및 활용 능력&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MS AI 스쿨을 통해 학습 하고 싶으신 걸(구체적으로) 작성해주세요.
-    &lt;ul&gt;
-      &lt;li&gt;현재까지는 딥러닝을 통해 간단하게 프로그래밍을 하는 작업을 해 왔다면, MS AI 스쿨을 통해 프로그래밍만 하는 것이 아니라
-직접 프로그램을 만들어서 배포를 하는 것을 해보고 싶습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;학습이 완료됐다는 걸 알 수 있게 질문을 작성해보세요.
-    &lt;ul&gt;
-      &lt;li&gt;하고 싶은 프로그램이 원하는 데로 잘 작동을 하게 된다면 학습이 완료가 되었구나 라고 하고 싶습니다.
-        &lt;ol&gt;
-          &lt;li&gt;카메라 안에 있는 딥러닝 프로그램이 사람인지 사물인지를 인식하는가?&lt;/li&gt;
-          &lt;li&gt;사물의 크기를 인식하는가?&lt;/li&gt;
-          &lt;li&gt;피사체가 어두워 졌을때에도 사람과 사물을 잘 인식하는 가?&lt;/li&gt;
-          &lt;li&gt;카메라를 통해 만들어진 프로그램을 통해 만들어진 데이터로 예측을 한 것이 예측이 잘 맞아 떨어지는가?&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content>
 
       
       
