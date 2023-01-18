@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-01-18T18:47:53+09:00</updated>
+  <updated>2023-01-18T19:53:42+09:00</updated>
   <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">Python 자연어처리 - 파이썬 자연어처리 기본</title>
       <link href="https://kcw0331.github.io/tag/python-NLP" rel="alternate" type="text/html" title="Python 자연어처리 - 파이썬 자연어처리 기본" />
-      <published>2023-01-18T01:40:00+09:00</published>
-      <updated>2023-01-18T01:40:00+09:00</updated>
+      <published>2023-01-16T09:40:00+09:00</published>
+      <updated>2023-01-16T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-NLP</id>
       <content type="html" xml:base="https://kcw0331.github.io/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -50,7 +50,9 @@
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datasets&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# pip install -U transformers datasets scipy scikit-learn
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ㅇㅇㅇ&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
@@ -445,10 +447,46 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
     </entry>
   
     <entry>
-      <title type="html">Python 강좌(2) - Python 제어문</title>
-      <link href="https://kcw0331.github.io/tag/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
+      <title type="html">Jekyll 강좌(1) - 블로그를 만들어 보았습니다.</title>
+      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보았습니다." />
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/jekyll-basic</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/jekyll-basic">&lt;p&gt;이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;
+
+&lt;p&gt;blogmaker를 실행 할 때, bundle exec jekyll serve를 해줍니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Python 강좌(2) - Python 제어문</title>
+      <link href="https://kcw0331.github.io/tag/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
+      <published>2020-06-08T09:40:00+09:00</published>
+      <updated>2020-06-08T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-control-statement</id>
       <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -486,46 +524,10 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
     </entry>
   
     <entry>
-      <title type="html">Jekyll 강좌(1) - 블로그를 만들어 보았습니다.</title>
-      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보았습니다." />
-      <published>2020-06-09T01:40:00+09:00</published>
-      <updated>2020-06-09T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/jekyll-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/jekyll-basic">&lt;p&gt;이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;
-
-&lt;p&gt;blogmaker를 실행 할 때, bundle exec jekyll serve를 해줍니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>kcw0331</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="jekyll" />
-      
-
-      
-        <summary type="html">이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
       <link href="https://kcw0331.github.io/tag/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
-      <published>2020-06-08T01:40:00+09:00</published>
-      <updated>2020-06-08T01:40:00+09:00</updated>
+      <published>2020-06-07T09:40:00+09:00</published>
+      <updated>2020-06-07T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-basic</id>
       <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
