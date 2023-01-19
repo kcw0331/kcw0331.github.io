@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8d1b734-028a-45a7-be76-b314f87e10d4" name="Changes" comment="공부한 내용들 블로그에 업데이트" />
+    <list default="true" id="b8d1b734-028a-45a7-be76-b314f87e10d4" name="Changes" comment="공부한 내용들 블로그에 업데이트">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/kcw0331/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/kcw0331/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/coding/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/coding/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/jekyll/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/jekyll/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/msai/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/msai/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/paper/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/paper/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/python/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/python/feed.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/blogmaker",
+    "last_opened_file_path": "C:/[GitHubPage]",
     "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
@@ -112,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674147401601</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674147693977</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147693977</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
