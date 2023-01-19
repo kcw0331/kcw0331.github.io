@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://kcw0331.github.io/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
+  <updated>2023-01-20T02:41:15+09:00</updated>
+  <id>https://kcw0331.github.io/tag/jekyll/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">꿈을 향해 나아가자! | </title>
+  
+
+  
+    <subtitle>창우의 아이티블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Jekyll 강좌(1) - 블로그를 만들어 보았습니다.</title>
+      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - 블로그를 만들어 보았습니다." />
+      <published>2020-06-09T01:40:00+09:00</published>
+      <updated>2020-06-09T01:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/jekyll-basic</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/jekyll-basic">&lt;p&gt;이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;
+
+&lt;p&gt;blogmaker를 실행 할 때, bundle exec jekyll serve를 해줍니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">이 글은 jekyll basic입니다.!!2020-06-07-python-basic.md</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
