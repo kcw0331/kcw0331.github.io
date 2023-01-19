@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b8d1b734-028a-45a7-be76-b314f87e10d4" name="Changes" comment="공부한 내용들 블로그에 업데이트">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/author/kcw0331/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/kcw0331/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author/kcw0331/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/kcw0331/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author_archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/author_archive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/coding-thiscoding.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tag/coding/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/coding/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/coding/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/coding/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag/jekyll/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/jekyll/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/msai-1weeks(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/msai-1weeks(1).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/msai-1weeks(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/msai-1weeks(2).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/msai-1weeks(3).html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/msai-1weeks(3).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/msai-pokerimageclassification.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/msai-pokerimageclassification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag/msai/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/msai/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/python-NLP.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/python-NLP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/python-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/python-basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/python-control-statement.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/python-control-statement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/paper/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/paper/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag/python/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/python/feed.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="b8d1b734-028a-45a7-be76-b314f87e10d4" name="Changes" comment="공부한 내용들 블로그에 업데이트" />
+>>>>>>> c663eaf (공부한 내용들 블로그에 업데이트)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,13 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/[GitHubPage]"
+    "last_opened_file_path": "C:/[GitHubPage]",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/[GitHubPage]&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
+  }
+}</component>
+>>>>>>> c663eaf (공부한 내용들 블로그에 업데이트)
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,7 +94,67 @@
       <option name="project" value="LOCAL" />
       <updated>1674050119254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674051053733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674051053733</updated>
+    </task>
+    <task id="LOCAL-00007" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674055817533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674055817533</updated>
+    </task>
+    <task id="LOCAL-00008" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674146662354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674146662354</updated>
+    </task>
+    <task id="LOCAL-00009" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674146998247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674146998247</updated>
+    </task>
+    <task id="LOCAL-00010" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674147229943</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147229943</updated>
+    </task>
+    <task id="LOCAL-00011" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674147401601</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147401601</updated>
+    </task>
+    <task id="LOCAL-00012" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674147693977</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147693977</updated>
+    </task>
+<<<<<<< HEAD
+    <option name="localTasksCounter" value="13" />
+=======
+    <task id="LOCAL-00013" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674148303030</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674148303030</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+>>>>>>> c663eaf (공부한 내용들 블로그에 업데이트)
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
