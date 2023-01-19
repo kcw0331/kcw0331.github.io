@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8d1b734-028a-45a7-be76-b314f87e10d4" name="Changes" comment="공부한 내용들 블로그에 업데이트" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KUhpw1eqN6NFP23QCKOl6TQ1nr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/blogmaker",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8d1b734-028a-45a7-be76-b314f87e10d4" name="Changes" comment="" />
+      <created>1674035254896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674035254896</updated>
+    </task>
+    <task id="LOCAL-00001" summary="블로그최신화">
+      <created>1674035308556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674035308556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="블로그최신화">
+      <created>1674039362506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674039362506</updated>
+    </task>
+    <task id="LOCAL-00003" summary="블로그최신화">
+      <created>1674048765278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674048765278</updated>
+    </task>
+    <task id="LOCAL-00004" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674049850676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674049850676</updated>
+    </task>
+    <task id="LOCAL-00005" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674050119254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674050119254</updated>
+    </task>
+    <task id="LOCAL-00006" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674051053733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674051053733</updated>
+    </task>
+    <task id="LOCAL-00007" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674055817533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674055817533</updated>
+    </task>
+    <task id="LOCAL-00008" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674146662354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674146662354</updated>
+    </task>
+    <task id="LOCAL-00009" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674146998247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674146998247</updated>
+    </task>
+    <task id="LOCAL-00010" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674147229943</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147229943</updated>
+    </task>
+    <task id="LOCAL-00011" summary="공부한 내용들 블로그에 업데이트">
+      <created>1674147401601</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674147401601</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="블로그최신화" />
+    <MESSAGE value="공부한 내용들 블로그에 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="공부한 내용들 블로그에 업데이트" />
+  </component>
+</project>
