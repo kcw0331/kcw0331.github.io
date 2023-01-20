@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-01-20T02:41:15+09:00</updated>
+  <updated>2023-01-20T14:25:44+09:00</updated>
   <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
 
   
@@ -32,14 +32,14 @@
 
   
     <entry>
-      <title type="html">Paper - RCNN(Review)</title>
-      <link href="https://kcw0331.github.io/tag/paper-RCNN(Review)" rel="alternate" type="text/html" title="Paper - RCNN(Review)" />
+      <title type="html">Paper - R-CNN 논문 리뷰</title>
+      <link href="https://kcw0331.github.io/tag/paper-paper(RCNNReview)" rel="alternate" type="text/html" title="Paper - R-CNN 논문 리뷰" />
       <published>2023-01-19T09:40:00+09:00</published>
       <updated>2023-01-19T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/paper-RCNN(Review)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-RCNN(Review)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://kcw0331.github.io/tag/paper-paper(RCNNReview)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(RCNNReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./paper-RCNN(Review)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;--&gt;
