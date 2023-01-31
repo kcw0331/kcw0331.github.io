@@ -8,7 +8,7 @@
     
       
       <item>
-        <title>Msai - MMDetection and JSON to yolov5</title>
+        <title>Msai - 미니프로젝트3 MMDetection(Animal Datasets)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -16,15 +16,39 @@
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-mmdetection&quot;&gt;Msai - MMDetection and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 31 Jan 2023 09:40:00 +0900</pubDate>
+        <link>
+        https://kcw0331.github.io/tag/msai-miniproject3</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/tag/msai-miniproject3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
         <pubDate>Mon, 30 Jan 2023 09:40:00 +0900</pubDate>
         <link>
-        https://kcw0331.github.io/tag/msai-mmdetection</link>
-        <guid isPermaLink="true">https://kcw0331.github.io/tag/msai-mmdetection</guid>
+        https://kcw0331.github.io/tag/msai-miniproject2</link>
+        <guid isPermaLink="true">https://kcw0331.github.io/tag/msai-miniproject2</guid>
       </item>
       
     
@@ -145,7 +169,8 @@
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-mmdetection&quot;&gt;Msai - MMDetection and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -167,7 +192,8 @@
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-mmdetection&quot;&gt;Msai - MMDetection and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -189,7 +215,8 @@
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-mmdetection&quot;&gt;Msai - MMDetection and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -211,7 +238,8 @@
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-mmdetection&quot;&gt;Msai - MMDetection and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
