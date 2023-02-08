@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/tag/msai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-01T00:48:17+09:00</updated>
+  <updated>2023-02-09T01:45:26+09:00</updated>
   <id>https://kcw0331.github.io/tag/msai/feed.xml</id>
 
   
@@ -32,6 +32,86 @@
 
   
     <entry>
+      <title type="html">Msai - 공부하면서 알게된 것 1</title>
+      <link href="https://kcw0331.github.io/tag/msai-studyknow" rel="alternate" type="text/html" title="Msai - 공부하면서 알게된 것 1" />
+      <published>2023-02-08T09:40:00+09:00</published>
+      <updated>2023-02-08T09:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/msai-studyknow</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-studyknow">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;2023년-2월-8일수&quot;&gt;2023년 2월 8일(수)&lt;/h1&gt;
+&lt;h2 id=&quot;공부중-알게된-내용&quot;&gt;공부중 알게된 내용&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-yolov5에서-detectpy를-돌리고-txt파일과-classes-0번만-뽑을-때-사용한다&quot;&gt;1. yolov5에서 detect.py를 돌리고 txt파일과 classes 0번만 뽑을 때 사용한다.&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;detect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classes&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-cvat에-yolo형식으로-upload를-할-경우&quot;&gt;2. cvat에 yolo형식으로 upload를 할 경우&lt;/h3&gt;
+
+&lt;p&gt;아래와 같은 구성으로 만들어져 있어야 cvat에 annotations을 업로드할 때, 인식을 하게 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/msai/cvat_yolo_upload.jpg&quot; alt=&quot;cvat_yolo_upload&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;첫째, obj_train_data 파일에 들어가면 이미지와 txt파일이 같이 있어야 한다는 것을 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/msai/cvat_yolo_upload2.jpg&quot; alt=&quot;cvat_yolo_upload2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;둘째, obj.data의 구성을 보면 클래스와 train, names, backup으로 구성되어 있는 것을 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/msai/cvat_yolo_upload3.jpg&quot; alt=&quot;cvat_yolo_upload3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;셋째, obj.names에는 클래스의 names이 순서대로 적혀 있는 것을 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/msai/cvat_yolo_upload4.jpg&quot; alt=&quot;cvat_yolo_upload4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;다섯째, train.txt에는 이미지 파일의 경로가 들어가 있는 것을 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/msai/cvat_yolo_upload5.jpg&quot; alt=&quot;cvat_yolo_upload5&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이렇게 구성이 되어야 cvat에 yolo형식의 annotations이 들어갈 때 잘 들어가는 것을 볼 수 있었다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-json에서-사이즈를-리사이즈하고-yolo로-변경을-할-때-아래와-같이-코드를-작성해주어야-한다-스케일을-사용해서-해주어야-한다-안그러면-다른곳에-바운딩-박스를-치게-되는-불상사가-생기게-된다&quot;&gt;3. json에서 사이즈를 리사이즈하고 yolo로 변경을 할 때, 아래와 같이 코드를 작성해주어야 한다. 스케일을 사용해서 해주어야 한다 안그러면 다른곳에 바운딩 박스를 치게 되는 불상사가 생기게 된다.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/msai/json_yolo_resize.jpg&quot; alt=&quot;json_yolo_resize&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="msai" />
+      
+
+      
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Msai - 미니프로젝트3 MMDetection(Animal Datasets)</title>
       <link href="https://kcw0331.github.io/tag/msai-miniproject3" rel="alternate" type="text/html" title="Msai - 미니프로젝트3 MMDetection(Animal Datasets)" />
       <published>2023-01-31T09:40:00+09:00</published>
@@ -45,6 +125,7 @@
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;-animal-label-object-detectionmmdetection-&quot;&gt;&lt;center&gt; Animal Label Object Detection(MMDetection) &lt;/center&gt;&lt;/h1&gt;
@@ -512,7 +593,7 @@ show_result_pyplot(model, img, results)
       
 
       
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets)</summary>
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
       
 
       
@@ -533,6 +614,7 @@ show_result_pyplot(model, img, results)
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;-미니-프로젝트-2-&quot;&gt;&lt;center&gt; 미니 프로젝트 2 &lt;/center&gt;&lt;/h2&gt;
@@ -911,7 +993,7 @@ list[float]
       
 
       
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets)</summary>
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
       
 
       
@@ -932,6 +1014,7 @@ list[float]
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;포커-이미지-분류-using-pytorch&quot;&gt;&lt;center&gt;포커 이미지 분류 using Pytorch&lt;/center&gt;&lt;/h2&gt;
@@ -1231,7 +1314,7 @@ list[float]
       
 
       
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets)</summary>
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
       
 
       
@@ -1252,6 +1335,7 @@ list[float]
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;html과-css-기초&quot;&gt;&lt;center&gt;HTML과 CSS 기초&lt;/center&gt;&lt;/h1&gt;
@@ -1283,7 +1367,7 @@ list[float]
       
 
       
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets)</summary>
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
       
 
       
@@ -1304,6 +1388,7 @@ list[float]
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;개발자-마인드-과제&quot;&gt;&lt;center&gt;개발자 마인드 과제&lt;/center&gt;&lt;br /&gt;&lt;/h1&gt;
@@ -1379,7 +1464,7 @@ AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
       
 
       
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets)</summary>
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
       
 
       
@@ -1400,6 +1485,7 @@ AI -&amp;gt; 컴퓨터 비전, 자연어처리, 추천 시스템&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;2022년-10월-4일-박용-강사님구구컬리지-대표님&quot;&gt;&lt;center&gt;2022년 10월 4일 박용 강사님(구구컬리지 대표님)&lt;/center&gt;&lt;/h1&gt;
@@ -1606,7 +1692,7 @@ oop를 기반으로 제작된 프로그래밍 언어, 게임, 응용소프트웨
       
 
       
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets)</summary>
+        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
       
 
       
