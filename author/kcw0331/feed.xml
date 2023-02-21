@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-09T01:45:26+09:00</updated>
+  <updated>2023-02-21T19:11:47+09:00</updated>
   <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
 
   
@@ -30,6 +30,183 @@
   
   
 
+  
+    <entry>
+      <title type="html">Paper - DeepSort 논문 리뷰</title>
+      <link href="https://kcw0331.github.io/tag/paper-paper(DeepSortReview)" rel="alternate" type="text/html" title="Paper - DeepSort 논문 리뷰" />
+      <published>2023-02-21T09:40:00+09:00</published>
+      <updated>2023-02-21T09:40:00+09:00</updated>
+      <id>https://kcw0331.github.io/tag/paper-paper(DeepSortReview)</id>
+      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(DeepSortReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./paper-paper(DeepSortReview)&quot;&gt;DeepSort 논문 리뷰&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;deepsort-paper-review&quot;&gt;DeepSort Paper Review&lt;/h1&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;ABSTRACT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simple Online and Realtime Tracking (SORT) is a pragmatic
+approach to multiple object tracking with a focus on simple,
+effective algorithms.&lt;/li&gt;
+  &lt;li&gt;In this paper, we integrate appearance
+information to improve the performance of SORT.&lt;/li&gt;
+  &lt;li&gt;Due to this extension we are able to track objects through longer periods of occlusions, effectively reducing the number of identity
+switches&lt;/li&gt;
+  &lt;li&gt;During online application, we establish measurement-to-track associations using
+nearest neighbor queries in visual appearance space.&lt;/li&gt;
+  &lt;li&gt;Experimental evaluation shows that our extensions reduce the number of identity switches by &lt;strong&gt;45%&lt;/strong&gt;, achieving overall competitive performance at high frame rates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. INTRODUCTION&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While achieving overall good performance in terms of tracking precision and accuracy, SORT returns a relatively high number of identity switches. This is, because the employed association metric is only accurate when state estimation uncertainty is low.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overcome this issue by replacing the association metric with a more informed metric
+that combines &lt;strong&gt;motion&lt;/strong&gt; and &lt;strong&gt;appearance information&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-sort-with-deep-association-metric&quot;&gt;2. SORT WITH DEEP ASSOCIATION METRIC&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adopt a conventional single hypothesis tracking methodology with recursive Kalman filtering and frame-by-frame data association.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;21-track-handling-and-state-estimation&quot;&gt;2.1. Track Handling and State Estimation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The track handling and Kalman filtering framework is mostly identical to the original formulation in SORT.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;22--assignment-problem&quot;&gt;2.2  Assignment Problem&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Into this problem formulation we integrate &lt;strong&gt;motion&lt;/strong&gt; and &lt;strong&gt;appearance information&lt;/strong&gt; through combination of two appropriate metrics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;mahalanobis-distance&quot;&gt;Mahalanobis distance&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;To incorporate motion information we use the (squared) &lt;strong&gt;Mahalanobis distance&lt;/strong&gt; between predicted Kalman states and newly arrived measurements&lt;/li&gt;
+&lt;/ul&gt;
+
+\[d^{(1)}(i, j) = (d_j - y_i)^T S_i^{-1} (d_j - y_i)\]
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;where Denote the projection of the i-th track distribution into measurement space by $(y_i ,S_i)$ and the $j$-th bounding
+box detection by $d_j$ .&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;strong&gt;Mahalanobis distance&lt;/strong&gt; takes state
+estimation uncertainty into account by measuring how many standard deviations the detection is away from the mean track
+location.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using this metric it is possible to exclude
+unlikely associations by thresholding the &lt;strong&gt;Mahalanobis distance&lt;/strong&gt; at a 95% confidence interval computed from the inverse
+$χ^{2}$ distribution.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+\[b^{(1)}_{i, j} = 1[d^{(1)}_{(i, j)} \le t^{(1)}]\]
+
+&lt;ul&gt;
+  &lt;li&gt;Denote this decision with an indicator that evaluates to 1 if the association between the $i$-th track and $j$-th detection is admissible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;smallest-cosine-distance&quot;&gt;Smallest cosine distance&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;second metric measures the smallest cosine distance between the $i$-th track and $j$-th
+detection in appearance space.&lt;/li&gt;
+&lt;/ul&gt;
+
+\[d^{(2)}_{(i, j)} = min\{1 - r_{j}^{T} r_{k}^{(i)} | r_{k}^{(i)} \in R_{i}\}\]
+
+\[b_{i, j}^{(2)} = 1[d^{(2)}(i, j) \le t^{(2)}]\]
+
+&lt;ul&gt;
+  &lt;li&gt;Apply a pre-trained CNN to compute bounding box appearance descriptors.&lt;/li&gt;
+&lt;/ul&gt;
+
+\[c_{i, j} = \lambda d^{(1)}(i, j) + (1 - \lambda ) d^{(2)} (i, j)\]
+
+&lt;ul&gt;
+  &lt;li&gt;where we call an association admissible if it is within the gating region of both metrics.&lt;/li&gt;
+&lt;/ul&gt;
+
+\[b_{i, j} = \prod_{m = 1}^{2} b_{i, j}^{(m)}\]
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;To build the association problem we combine both metrics using a weighted sum.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;During our experiments we found that setting $ \lambda $ = 0 is a reasonable choice
+when there is substantial camera motion.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;23-matching-cascade&quot;&gt;2.3 Matching Cascade&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;When an object is occluded for a longer period of time, subsequent Kalman filter predictions increase the uncertainty associated with the object location.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Therefore, we introduce a matching cascade that gives priority to more frequently seen
+objects to encode our notion of probability spread in the association likelihood.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3--experiments&quot;&gt;3.  EXPERIMENTS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a decrease of approximately &lt;strong&gt;45%&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overall, due to integration of appearance information we successfully maintain identities through longer occlusions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">Paper Review 구성 목록은 아래와 같이 되어있습니다. RCNN - Review DeepSort 논문 리뷰</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Msai - 공부하면서 알게된 것 1</title>
@@ -1009,7 +1186,7 @@ list[float]
       <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(RCNNReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
-&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+    &lt;li&gt;&lt;a href=&quot;./paper-paper(DeepSortReview)&quot;&gt;DeepSort 논문 리뷰&lt;/a&gt;&lt;/li&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;/ul&gt;
@@ -1199,7 +1376,7 @@ list[float]
       
 
       
-        <summary type="html">Paper Review 구성 목록은 아래와 같이 되어있습니다. RCNN - Review</summary>
+        <summary type="html">Paper Review 구성 목록은 아래와 같이 되어있습니다. RCNN - Review DeepSort 논문 리뷰</summary>
       
 
       
@@ -1947,59 +2124,6 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
     &lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 전체 저장 경로가 만들어 진다.
 &lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 여기는 싱글 GPU이고 멀티 GPU이면 이거와 다르다.
 &lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;state_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>kcw0331</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="msai" />
-      
-
-      
-        <summary type="html">MSAISchool 구성 목록은 아래와 같이 되어있습니다. Msai - 1주차(1) Msai - 1주차(2) Msai - 1주차(3) Msai - 포커이미지 분류 Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5 Msai - 미니프로젝트 3 MMDetection(Animal Datasets) Msai - 공부하면서 알게된 것 1</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Msai - 1주차(3)</title>
-      <link href="https://kcw0331.github.io/tag/msai-1weeks(3)" rel="alternate" type="text/html" title="Msai - 1주차(3)" />
-      <published>2022-10-05T09:40:00+09:00</published>
-      <updated>2022-10-05T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/msai-1weeks(3)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-1weeks(3)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-pokerimageclassification&quot;&gt;Msai - 포커이미지 분류&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-miniproject2&quot;&gt;Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-miniproject3&quot;&gt;Msai - 미니프로젝트 3 MMDetection(Animal Datasets)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./msai-studyknow&quot;&gt;Msai - 공부하면서 알게된 것 1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;html과-css-기초&quot;&gt;&lt;center&gt;HTML과 CSS 기초&lt;/center&gt;&lt;/h1&gt;
-
-&lt;h1 id=&quot;1-웹-동작-방식&quot;&gt;1. 웹 동작 방식&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;웹은 요청하고 응답 받은 것을 렌더링한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
