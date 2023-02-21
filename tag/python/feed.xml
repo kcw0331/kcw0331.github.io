@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://kcw0331.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-21T22:10:28+09:00</updated>
+  <updated>2023-02-21T23:21:48+09:00</updated>
   <id>https://kcw0331.github.io/tag/python/feed.xml</id>
 
   
@@ -37,7 +37,7 @@
       <published>2023-01-18T09:40:00+09:00</published>
       <updated>2023-01-18T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-NLP</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -245,7 +245,7 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
       
 
       
-        <summary type="html">Python 구성 목록은 아래와 같이 되어있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
+        <summary type="html">Python에 대한 내용을 작성해 보았다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
       
 
       
@@ -258,7 +258,7 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
       <published>2020-06-08T09:40:00+09:00</published>
       <updated>2020-06-08T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-control-statement</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -286,7 +286,7 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
       
 
       
-        <summary type="html">Python 구성 목록은 아래와 같이 되어있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
+        <summary type="html">Python에 대한 내용을 작성해 보았다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
       
 
       
@@ -299,7 +299,7 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
       <published>2020-06-07T09:40:00+09:00</published>
       <updated>2020-06-07T09:40:00+09:00</updated>
       <id>https://kcw0331.github.io/tag/python-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 구성 목록은 아래와 같이 되어있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -327,7 +327,7 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
       
 
       
-        <summary type="html">Python 구성 목록은 아래와 같이 되어있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
+        <summary type="html">Python에 대한 내용을 작성해 보았다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문 Python 자연어처리 - 파이썬 자연어처리 기본</summary>
       
 
       
