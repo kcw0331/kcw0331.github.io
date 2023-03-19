@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://kcw0331.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-21T23:21:48+09:00</updated>
-  <id>https://kcw0331.github.io/tag/python/feed.xml</id>
+  <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-03-19T21:14:27+09:00</updated>
+  <id>http://localhost:4000/tag/python/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Python 자연어처리 - 파이썬 자연어처리 기본</title>
-      <link href="https://kcw0331.github.io/tag/python-NLP" rel="alternate" type="text/html" title="Python 자연어처리 - 파이썬 자연어처리 기본" />
+      <link href="http://localhost:4000/tag/python-NLP" rel="alternate" type="text/html" title="Python 자연어처리 - 파이썬 자연어처리 기본" />
       <published>2023-01-18T09:40:00+09:00</published>
       <updated>2023-01-18T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/python-NLP</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/python-NLP</id>
+      <content type="html" xml:base="http://localhost:4000/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -254,11 +254,11 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
   
     <entry>
       <title type="html">Python 강좌(2) - Python 제어문</title>
-      <link href="https://kcw0331.github.io/tag/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
+      <link href="http://localhost:4000/tag/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
       <published>2020-06-08T09:40:00+09:00</published>
       <updated>2020-06-08T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/python-control-statement</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/python-control-statement</id>
+      <content type="html" xml:base="http://localhost:4000/tag/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -295,18 +295,21 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
   
     <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://kcw0331.github.io/tag/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <link href="http://localhost:4000/tag/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
       <published>2020-06-07T09:40:00+09:00</published>
       <updated>2020-06-07T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/python-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/python-basic</id>
+      <content type="html" xml:base="http://localhost:4000/tag/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-NLP&quot;&gt;Python 자연어처리 - 파이썬 자연어처리 기본&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;이 글은 python basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;</content>
+&lt;p&gt;이 글은 블로그를 처음 작성하였던 python basic이다.!!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2020-06-07-python-basic.md&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
