@@ -4,7 +4,11 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+<<<<<<< HEAD
   <updated>2023-03-28T19:32:37+09:00</updated>
+=======
+  <updated>2023-03-19T21:18:37+09:00</updated>
+>>>>>>> 0eac7dca504cfff064da69a85d146b19d26a334d
   <id>http://localhost:4000/tag/python/feed.xml</id>
 
   
@@ -306,7 +310,12 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
     &lt;li&gt;&lt;a href=&quot;./python-NLP&quot;&gt;Python 자연어처리 - 파이썬 자연어처리 기본&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;이 글은 python basic입니다.!!2020-06-07-python-basic.md&lt;/p&gt;</content>
+&lt;p&gt;이 글은 블로그를 처음 작성하였던 python basic이다.!!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2020-06-07-python-basic.md&lt;/li&gt;
+  &lt;li&gt;데스크탑에 블로그를 다시 설치하여 테스트를 해보았다.&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
