@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://kcw0331.github.io/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-21T23:21:48+09:00</updated>
-  <id>https://kcw0331.github.io/author/kcw0331/feed.xml</id>
+  <link href="http://localhost:4000/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-03-28T19:32:37+09:00</updated>
+  <id>http://localhost:4000/author/kcw0331/feed.xml</id>
 
   
   
@@ -32,12 +32,55 @@
 
   
     <entry>
+      <title type="html">cs - cs 스터디 첫번째</title>
+      <link href="http://localhost:4000/tag/cs-1" rel="alternate" type="text/html" title="cs - cs 스터디 첫번째" />
+      <published>2023-03-29T01:40:00+09:00</published>
+      <updated>2023-03-29T01:40:00+09:00</updated>
+      <id>http://localhost:4000/tag/cs-1</id>
+      <content type="html" xml:base="http://localhost:4000/tag/cs-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - 첫 번째 작성&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cs-스터디-작성&quot;&gt;CS 스터디 작성&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cs" />
+      
+
+      
+        <summary type="html">CS 스터디 공부 목록 CS - 첫 번째 작성</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Paper - DeepSort 논문 리뷰</title>
-      <link href="https://kcw0331.github.io/tag/paper-paper(DeepSortReview)" rel="alternate" type="text/html" title="Paper - DeepSort 논문 리뷰" />
+      <link href="http://localhost:4000/tag/paper-paper(DeepSortReview)" rel="alternate" type="text/html" title="Paper - DeepSort 논문 리뷰" />
       <published>2023-02-21T09:40:00+09:00</published>
       <updated>2023-02-21T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/paper-paper(DeepSortReview)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(DeepSortReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/paper-paper(DeepSortReview)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/paper-paper(DeepSortReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(DeepSortReview)&quot;&gt;DeepSort 논문 리뷰&lt;/a&gt;&lt;/li&gt;
@@ -233,11 +276,11 @@ objects to encode our notion of probability spread in the association likelihood
   
     <entry>
       <title type="html">Coding - 입출력과 사칙연산(꼬마 정민)</title>
-      <link href="https://kcw0331.github.io/tag/coding-baekjoo(11382)" rel="alternate" type="text/html" title="Coding - 입출력과 사칙연산(꼬마 정민)" />
+      <link href="http://localhost:4000/tag/coding-baekjoo(11382)" rel="alternate" type="text/html" title="Coding - 입출력과 사칙연산(꼬마 정민)" />
       <published>2023-02-20T09:40:00+09:00</published>
       <updated>2023-02-20T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/coding-baekjoo(11382)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-baekjoo(11382)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/coding-baekjoo(11382)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/coding-baekjoo(11382)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230116)&quot;&gt;Coding - 두 배열의 원소 교체&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;
@@ -300,11 +343,11 @@ objects to encode our notion of probability spread in the association likelihood
   
     <entry>
       <title type="html">Coding - 숫자카드(집합과 맵)</title>
-      <link href="https://kcw0331.github.io/tag/coding-baekjoo(10815)" rel="alternate" type="text/html" title="Coding - 숫자카드(집합과 맵)" />
+      <link href="http://localhost:4000/tag/coding-baekjoo(10815)" rel="alternate" type="text/html" title="Coding - 숫자카드(집합과 맵)" />
       <published>2023-02-15T09:40:00+09:00</published>
       <updated>2023-02-15T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/coding-baekjoo(10815)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-baekjoo(10815)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/coding-baekjoo(10815)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/coding-baekjoo(10815)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230116)&quot;&gt;Coding - 두 배열의 원소 교체&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;
@@ -401,11 +444,11 @@ objects to encode our notion of probability spread in the association likelihood
   
     <entry>
       <title type="html">Msai - 공부하면서 알게된 것 1</title>
-      <link href="https://kcw0331.github.io/tag/msai-studyknow" rel="alternate" type="text/html" title="Msai - 공부하면서 알게된 것 1" />
+      <link href="http://localhost:4000/tag/msai-studyknow" rel="alternate" type="text/html" title="Msai - 공부하면서 알게된 것 1" />
       <published>2023-02-08T09:40:00+09:00</published>
       <updated>2023-02-08T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/msai-studyknow</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-studyknow">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 공부에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/msai-studyknow</id>
+      <content type="html" xml:base="http://localhost:4000/tag/msai-studyknow">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 공부에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
@@ -481,11 +524,11 @@ objects to encode our notion of probability spread in the association likelihood
   
     <entry>
       <title type="html">Msai - 미니프로젝트3 MMDetection(Animal Datasets)</title>
-      <link href="https://kcw0331.github.io/tag/msai-miniproject3" rel="alternate" type="text/html" title="Msai - 미니프로젝트3 MMDetection(Animal Datasets)" />
+      <link href="http://localhost:4000/tag/msai-miniproject3" rel="alternate" type="text/html" title="Msai - 미니프로젝트3 MMDetection(Animal Datasets)" />
       <published>2023-01-31T09:40:00+09:00</published>
       <updated>2023-01-31T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/msai-miniproject3</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-miniproject3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 공부에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/msai-miniproject3</id>
+      <content type="html" xml:base="http://localhost:4000/tag/msai-miniproject3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 공부에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
@@ -970,11 +1013,11 @@ show_result_pyplot(model, img, results)
   
     <entry>
       <title type="html">Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5</title>
-      <link href="https://kcw0331.github.io/tag/msai-miniproject2" rel="alternate" type="text/html" title="Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5" />
+      <link href="http://localhost:4000/tag/msai-miniproject2" rel="alternate" type="text/html" title="Msai - 미니프로젝트 2 MMDetection(Wine Label Datasets) and JSON to yolov5" />
       <published>2023-01-30T09:40:00+09:00</published>
       <updated>2023-01-30T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/msai-miniproject2</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/msai-miniproject2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 공부에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/msai-miniproject2</id>
+      <content type="html" xml:base="http://localhost:4000/tag/msai-miniproject2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;MSAISchool 공부에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(1)&quot;&gt;Msai - 1주차(1)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;
@@ -1370,11 +1413,11 @@ list[float]
   
     <entry>
       <title type="html">Paper - R-CNN 논문 리뷰</title>
-      <link href="https://kcw0331.github.io/tag/paper-paper(RCNNReview)" rel="alternate" type="text/html" title="Paper - R-CNN 논문 리뷰" />
+      <link href="http://localhost:4000/tag/paper-paper(RCNNReview)" rel="alternate" type="text/html" title="Paper - R-CNN 논문 리뷰" />
       <published>2023-01-19T09:40:00+09:00</published>
       <updated>2023-01-19T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/paper-paper(RCNNReview)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(RCNNReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/paper-paper(RCNNReview)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/paper-paper(RCNNReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(DeepSortReview)&quot;&gt;DeepSort 논문 리뷰&lt;/a&gt;&lt;/li&gt;
@@ -1607,11 +1650,11 @@ list[float]
   
     <entry>
       <title type="html">Python 자연어처리 - 파이썬 자연어처리 기본</title>
-      <link href="https://kcw0331.github.io/tag/python-NLP" rel="alternate" type="text/html" title="Python 자연어처리 - 파이썬 자연어처리 기본" />
+      <link href="http://localhost:4000/tag/python-NLP" rel="alternate" type="text/html" title="Python 자연어처리 - 파이썬 자연어처리 기본" />
       <published>2023-01-18T09:40:00+09:00</published>
       <updated>2023-01-18T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/python-NLP</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/python-NLP</id>
+      <content type="html" xml:base="http://localhost:4000/tag/python-NLP">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
@@ -1828,11 +1871,11 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
   
     <entry>
       <title type="html">Coding - 이진 탐색</title>
-      <link href="https://kcw0331.github.io/tag/coding-thiscoding(20230118)" rel="alternate" type="text/html" title="Coding - 이진 탐색" />
+      <link href="http://localhost:4000/tag/coding-thiscoding(20230118)" rel="alternate" type="text/html" title="Coding - 이진 탐색" />
       <published>2023-01-18T09:40:00+09:00</published>
       <updated>2023-01-18T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/coding-thiscoding(20230118)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-thiscoding(20230118)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/coding-thiscoding(20230118)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/coding-thiscoding(20230118)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230116)&quot;&gt;Coding - 두 배열의 원소 교체&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;
@@ -1874,77 +1917,6 @@ A: 토큰화는 이루어졌지만 학습 과정 시, 데이터를 배치 단위
 &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>kcw0331</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="coding" />
-      
-
-      
-        <summary type="html">코딩테스트 공부 목록에 대한 내용을 작성해 보았다. Coding - 두 배열의 원소 교체 Coding - 순차 탐색 Coding - 이진 탐색</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Coding - 순차 탐색</title>
-      <link href="https://kcw0331.github.io/tag/coding-thiscoding(20230117)" rel="alternate" type="text/html" title="Coding - 순차 탐색" />
-      <published>2023-01-17T09:40:00+09:00</published>
-      <updated>2023-01-17T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/coding-thiscoding(20230117)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/coding-thiscoding(20230117)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;코딩테스트 공부 목록에 대한 내용을 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230116)&quot;&gt;Coding - 두 배열의 원소 교체&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;
-&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
-&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;순차-탐색-소스코드-구현&quot;&gt;순차 탐색 소스코드 구현&lt;/h1&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;참고자료 : &lt;a href=&quot;https://books.google.co.kr/books?id=vBz-DwAAQBAJ&amp;amp;printsec=frontcover&amp;amp;dq=%EC%9D%B4%EA%B2%83%EC%9D%B4+%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%8B%A4.&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwiTn8CWnNH8AhVnlFYBHZZMBPQQ6AF6BAgJEAI#v=onepage&amp;amp;q=%EC%9D%B4%EA%B2%83%EC%9D%B4%20%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%8B%A4.&amp;amp;f=false&quot;&gt;이것이 코딩테스트이다.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sequential_search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 각 원소를 하니씩 확인한다.
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 현재의 원소가 찾고자 하는 원소와 동일한 경우
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 현재의 위치 변환(인덱스는 0부터 시작하므로 1 더하기)
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;생성할 원소 개수를 입력한 다음 한 칸 띄고 찾을 문자열을 입력하세요.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;input_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;input_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;앞서 적은 원소 개수만큼 문자열을 입력하세요. 구분은 띄어쓰기 한 칸으로 합니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 순차 탐색 수행 결과 출력
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sequential_search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;순차 탐색은 앞에서 부터 한 개씩 문자를 비교해가면서 탐색을 진행해준다.&lt;/li&gt;
-&lt;/ul&gt;</content>
 
       
       

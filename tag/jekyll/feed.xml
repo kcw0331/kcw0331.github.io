@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://kcw0331.github.io/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-21T23:21:48+09:00</updated>
-  <id>https://kcw0331.github.io/tag/jekyll/feed.xml</id>
+  <link href="http://localhost:4000/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-03-28T19:32:37+09:00</updated>
+  <id>http://localhost:4000/tag/jekyll/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Jekyll - 블로그를 만들어 보았다.</title>
-      <link href="https://kcw0331.github.io/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll - 블로그를 만들어 보았다." />
+      <link href="http://localhost:4000/tag/jekyll-basic" rel="alternate" type="text/html" title="Jekyll - 블로그를 만들어 보았다." />
       <published>2020-06-09T01:40:00+09:00</published>
       <updated>2020-06-09T01:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/jekyll-basic</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/jekyll-basic">&lt;h2 id=&quot;블로그-처음-post에-기념으로-작성를-해보게-되었다&quot;&gt;블로그 처음 post에 기념으로 작성를 해보게 되었다.&lt;/h2&gt;
+      <id>http://localhost:4000/tag/jekyll-basic</id>
+      <content type="html" xml:base="http://localhost:4000/tag/jekyll-basic">&lt;h2 id=&quot;블로그-처음-post에-기념으로-작성를-해보게-되었다&quot;&gt;블로그 처음 post에 기념으로 작성를 해보게 되었다.&lt;/h2&gt;
 
 &lt;hr /&gt;
 

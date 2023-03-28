@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://kcw0331.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://kcw0331.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-21T23:21:48+09:00</updated>
-  <id>https://kcw0331.github.io/tag/paper/feed.xml</id>
+  <link href="http://localhost:4000/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-03-28T19:32:37+09:00</updated>
+  <id>http://localhost:4000/tag/paper/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Paper - DeepSort 논문 리뷰</title>
-      <link href="https://kcw0331.github.io/tag/paper-paper(DeepSortReview)" rel="alternate" type="text/html" title="Paper - DeepSort 논문 리뷰" />
+      <link href="http://localhost:4000/tag/paper-paper(DeepSortReview)" rel="alternate" type="text/html" title="Paper - DeepSort 논문 리뷰" />
       <published>2023-02-21T09:40:00+09:00</published>
       <updated>2023-02-21T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/paper-paper(DeepSortReview)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(DeepSortReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/paper-paper(DeepSortReview)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/paper-paper(DeepSortReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(DeepSortReview)&quot;&gt;DeepSort 논문 리뷰&lt;/a&gt;&lt;/li&gt;
@@ -233,11 +233,11 @@ objects to encode our notion of probability spread in the association likelihood
   
     <entry>
       <title type="html">Paper - R-CNN 논문 리뷰</title>
-      <link href="https://kcw0331.github.io/tag/paper-paper(RCNNReview)" rel="alternate" type="text/html" title="Paper - R-CNN 논문 리뷰" />
+      <link href="http://localhost:4000/tag/paper-paper(RCNNReview)" rel="alternate" type="text/html" title="Paper - R-CNN 논문 리뷰" />
       <published>2023-01-19T09:40:00+09:00</published>
       <updated>2023-01-19T09:40:00+09:00</updated>
-      <id>https://kcw0331.github.io/tag/paper-paper(RCNNReview)</id>
-      <content type="html" xml:base="https://kcw0331.github.io/tag/paper-paper(RCNNReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
+      <id>http://localhost:4000/tag/paper-paper(RCNNReview)</id>
+      <content type="html" xml:base="http://localhost:4000/tag/paper-paper(RCNNReview)">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Paper Review를 작성해 보았다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(RCNNReview)&quot;&gt;RCNN - Review&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./paper-paper(DeepSortReview)&quot;&gt;DeepSort 논문 리뷰&lt;/a&gt;&lt;/li&gt;
