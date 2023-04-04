@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-28T19:32:37+09:00</updated>
+  <updated>2023-04-05T00:09:14+09:00</updated>
   <id>http://localhost:4000/tag/cs/feed.xml</id>
 
   
@@ -32,6 +32,93 @@
 
   
     <entry>
+      <title type="html">cs - Critical Section, Singleton Pattern</title>
+      <link href="http://localhost:4000/tag/cs-2" rel="alternate" type="text/html" title="cs - Critical Section, Singleton Pattern" />
+      <published>2023-04-05T01:40:00+09:00</published>
+      <updated>2023-04-05T01:40:00+09:00</updated>
+      <id>http://localhost:4000/tag/cs-2</id>
+      <content type="html" xml:base="http://localhost:4000/tag/cs-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - 첫 번째 작성&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;critical-section&quot;&gt;Critical Section&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다.
+&lt;strong&gt;임계 구역은 지정된 시간이 지난 후 종료된다.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;공유되는 자원 =&amp;gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(= 임계영역)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;임계 영역을 해결하기 위한 방법
+    &lt;ul&gt;
+      &lt;li&gt;뮤텍스, 세마포어, 모니터 등이 있다고 한다.&lt;/li&gt;
+      &lt;li&gt;상호배제, 한정 대기, 융통성이라는 조건을 만족한다.
+        &lt;ol&gt;
+          &lt;li&gt;상호배제: 한 프로세스가 임계 영역에 들어갔을 때, 다른 포르세스는 들어갈 수 없다.&lt;/li&gt;
+          &lt;li&gt;한정 대기: 특정 프로세스가 영원히 임계 영역에 들어가지 못하면 안된다.&lt;/li&gt;
+          &lt;li&gt;진행: 임계 구역에 실행되고 있는 프로세스가 없을 경우, 들어갈 프로세스를 적절히 선택해야 한다.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;singleton-pattern&quot;&gt;singleton pattern&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;싱글턴 패턴을 따르는 클래스는 생성자가 여러 차례 호출 되더라도 실제로 생성되는 객체는 하나이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 객체를 리턴한다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이와 같은 디자인 유형을 “싱글턴 패턴”이라고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;파이썬의 모듈은 그 자체로 싱글턴이다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 파이썬
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;singleton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__new__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__new__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h3 id=&quot;참고문헌&quot;&gt;참고문헌&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@lovi0714/%EC%9E%84%EA%B3%84-%EC%98%81%EC%97%AD-Critical-Section&quot;&gt;임계영역&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Singleton_pattern&quot;&gt;Sigleton Pattern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cs" />
+      
+
+      
+        <summary type="html">CS 스터디 공부 목록 CS - 첫 번째 작성</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">cs - cs 스터디 첫번째</title>
       <link href="http://localhost:4000/tag/cs-1" rel="alternate" type="text/html" title="cs - cs 스터디 첫번째" />
       <published>2023-03-29T01:40:00+09:00</published>
@@ -46,7 +133,30 @@
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;cs-스터디-작성&quot;&gt;CS 스터디 작성&lt;/h2&gt;</content>
+&lt;h2 id=&quot;1-how-control-hyper-parameter-in-ai&quot;&gt;1. How control hyper-parameter in AI&lt;/h2&gt;
+&lt;p&gt;Hyperparameters are parameters in machine learning models that are set before training and affect the learning process and the final model’s performance. Examples of hyperparameters include the learning rate, the number of hidden layers in a neural network, and the number of trees in a random forest model.&lt;/p&gt;
+
+&lt;p&gt;Controlling hyperparameters in AI involves finding the optimal values for these hyperparameters that result in the best performance of the model. There are several techniques for hyperparameter tuning, including:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grid Search: This technique involves manually defining a grid of hyperparameter values and testing each combination of hyperparameters to find the best performing model.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Random Search: This technique involves randomly sampling hyperparameter values within predefined ranges and testing each combination of hyperparameters to find the best performing model.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bayesian Optimization: This technique uses a probabilistic model to predict the performance of different hyperparameter values and selects the next hyperparameter values to test based on the predictions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Genetic Algorithms: This technique uses an evolutionary approach to find the best combination of hyperparameters, where the fittest combinations are selected for further mutation and breeding.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Automated Machine Learning (AutoML): This is an automated approach to hyperparameter tuning that uses algorithms to search for the optimal combination of hyperparameters.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Overall, controlling hyperparameters in AI involves a combination of domain knowledge, trial and error, and algorithmic optimization techniques to find the best hyperparameters for the specific machine learning problem at hand.&lt;/p&gt;</content>
 
       
       
