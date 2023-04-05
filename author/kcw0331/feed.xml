@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-05T18:05:31+09:00</updated>
+  <updated>2023-04-05T19:00:36+09:00</updated>
   <id>http://localhost:4000/author/kcw0331/feed.xml</id>
 
   
@@ -46,7 +46,8 @@
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;critical-section&quot;&gt;Critical Section&lt;/h1&gt;
+&lt;h1 id=&quot;1-critical-section&quot;&gt;1. Critical Section&lt;/h1&gt;
+&lt;hr /&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -61,27 +62,29 @@
   &lt;li&gt;
     &lt;p&gt;락을 사용하여 Critical section을 보호하면, 멀티스레드 환경에서 안전하게 공유 자원에 접근할 수 있습니다. 하지만 락이 잘못 사용될 경우, 데드락(Deadlock)이 발생하거나 성능 저하가 일어날 수 있으므로 주의해야 합니다.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;임계 구역은 지정된 시간이 지난 후 종료된다.&lt;/strong&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;임계 구역은 지정된 시간이 지난 후 종료된다.&lt;/strong&gt;&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;공유되는 자원 =&amp;gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(= 임계영역)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;임계 영역을 해결하기 위한 방법
-    &lt;ul&gt;
-      &lt;li&gt;크리티컬 섹션 문제에 대한 모든 솔루션은 다음 요구 사항을 충족합니다.
-        &lt;ol&gt;
-          &lt;li&gt;상호배제: 한 프로세스가 임계 영역에 들어갔을 때, 다른 포르세스는 들어갈 수 없습니다.&lt;/li&gt;
-          &lt;li&gt;진행률: 임계 구역에서 실행 중인 프로세스가 없고 임계 구역에 진입하려는 프로세스가 있을 때, 진입하기 위해 무한전 기다릴 필요는 없습니다.&lt;/li&gt;
-          &lt;li&gt;제한된 대기: 다른 프로세스가 임계 영역에 들어가도록 요청한 후 해당 요청이 수락되기 전에 프로세스가 임계 영역에서 실행할 수 있는 횟수에 제한이 있어야 합니다.&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;임계 영역을 해결하기 위한 방법&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;크리티컬 섹션 문제에 대한 모든 솔루션은 다음 요구 사항을 충족합니다.
+      &lt;ol&gt;
+        &lt;li&gt;상호배제: 한 프로세스가 임계 영역에 들어갔을 때, 다른 포르세스는 들어갈 수 없습니다.&lt;/li&gt;
+        &lt;li&gt;진행률: 임계 구역에서 실행 중인 프로세스가 없고 임계 구역에 진입하려는 프로세스가 있을 때, 진입하기 위해 무한전 기다릴 필요는 없습니다.&lt;/li&gt;
+        &lt;li&gt;제한된 대기: 다른 프로세스가 임계 영역에 들어가도록 요청한 후 해당 요청이 수락되기 전에 프로세스가 임계 영역에서 실행할 수 있는 횟수에 제한이 있어야 합니다.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
-&lt;h1 id=&quot;singleton-pattern&quot;&gt;singleton pattern&lt;/h1&gt;
+&lt;h1 id=&quot;2-singleton-pattern&quot;&gt;2. Singleton pattern&lt;/h1&gt;
+&lt;hr /&gt;
 
 &lt;ul&gt;
   &lt;li&gt;싱글턴 패턴을 따르는 클래스는 생성자가 여러 차례 호출 되더라도 실제로 생성되는 객체는 하나이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 객체를 리턴한다.&lt;/li&gt;
@@ -102,11 +105,38 @@
 &lt;/ul&gt;
 
 &lt;hr /&gt;
-
-&lt;h1 id=&quot;overloading&quot;&gt;Overloading&lt;/h1&gt;
+&lt;h2 id=&quot;3-overriding-and-overloading&quot;&gt;3. Overriding And Overloading&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
+  &lt;li&gt;
+    &lt;p&gt;Overriding과 Overloading은 객체 지향 프로그램(OOP)에서 다형성을 구현하기 위해 사용되는 개념입니다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;여기에서 다형성(Polymorphism)은 객체 지향 프로그래밍에서 여러 개의 클래스가 동일한 메서드나 프로퍼티를 가지고 있을 때,
+각 클래스의 인스턴스가 해당 메서드나 프로퍼티를 다르게 처리할 수 있는 것을 말합니다. 즉, 동일한 이름의 메서드나 프로퍼티가 다른 방식으로 동작할 수 있는 것입니다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;다형성은 상속, 추상화, 인터페이스, 오버라이딩 등의 개념들과 밀접한 관련이 있습니다. 예를 들면, 상위 클래스의 메서드를 하위 클래스에서 오버라이딩하여 다른 방식으로 동작할 수 있습니다.
+이렇게 하위 클래스에서 상위 클래스의 메서드를 재정의하면, 다형성을 구현할 수 있습니다. 또한, 추상 클래스나 인터페이스를 사용하면, 다른 클래스에서 해당 추상 클래스나 인터페이스를 상속하거나 
+구현하여 다형성을 구현할 수 있습니다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;31-overloading&quot;&gt;3.1. Overloading&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우입니다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overloading(오버로딩)은 동일한 이름의 메서드를 매개변수의 개수나 타입 등을 다르게하여 여러 개 정의하는 것을 말합니다.
+같은 이름의 메서드나 여러 개 있지만 매개변수의 타입이나 개수가 다르기 때문에 컨파일러는 메서드 호출 시 인자의 타입이나 개수에 맞는 메서드를 자동으로 선택해줍니다.
+예를 들면, Print() 메서드는 매개변수의 타입에 따라 여러 버전이 오버로딩됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;아래는 자바에서 사용한 Overloading의 예제 코드입니다.
     &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Overloading&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;computeArea&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Circle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;computeArea&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Circle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Circle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
@@ -115,15 +145,22 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;32-overriding&quot;&gt;3.2. Overriding&lt;/h3&gt;
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;overriding&quot;&gt;Overriding&lt;/h1&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;상위 클래스의 메서드와 이름과 signature가 같은 함수를 하위 클래스에 재정의 하는 것
+  &lt;li&gt;상위 클래스의 메서드와 이름과 signature가 같은 함수를 하위 클래스에 재정의 하는 것 입니다.
     &lt;ul&gt;
-      &lt;li&gt;상속 관계에 있는 클래스 간에 같은 이름의 메서드를 정의하는 것.
-        &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;overriding&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;
+      &lt;li&gt;상속 관계에 있는 클래스 간에 같은 이름의 메서드를 정의하는 것 입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overriding(오버라이딩)은 상위 클래스가 가지고 있는 메서드를 하위 클래스에 재정의하여 사용하는 것을 말하니다.
+즉, 하위 클래스에서 상위 클래스의 메서드를 덮어쓰는 것입니다. 이를 통해 다형성을 구현할 수 있습니다. 예를 들면,
+Animal 클래스에 있는 makeSound() 메서드를 하위 클래스인 Dog 클래스에서 오버 라이딩하여 개 울음소리를 내도록 구현할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;아래는 자바에서 사용한 Overriding의 예제 코드입니다.
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;overriding&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Shape&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;printMe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Shape&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;computeArea&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
@@ -138,15 +175,20 @@
 &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;computeArea&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;blockquote&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Overrindg과 Overloading은 이름은 유하사지만, 서로 다른 개념이고 용도 또한 다릅니다.&lt;/li&gt;
+        &lt;li&gt;Overloading은 같은 이름의 메서드를 다양한 매개변수로 정의하는 것이고,&lt;/li&gt;
+        &lt;li&gt;Overriding은 상속 관계에서 부모 클래스의 메서드를 자식 클래스에서 재정의하여 사용하는 것입니다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;참고문헌&quot;&gt;참고문헌&lt;/h3&gt;
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;참고문헌&quot;&gt;참고문헌&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://velog.io/@lovi0714/%EC%9E%84%EA%B3%84-%EC%98%81%EC%97%AD-Critical-Section&quot;&gt;임계영역_참고문헌1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/answers/what-is-the-critical-section-problem-in-operating-systems&quot;&gt;임계영역_참고문헌2&lt;/a&gt;&lt;/li&gt;

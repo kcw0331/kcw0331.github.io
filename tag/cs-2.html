@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="꿈을 향해 나아가자!" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cs 2 - 꿈을 향해 나아가자!" />
-    <meta property="og:description" content="CS 스터디 공부 목록 CS - Hyper-parameter Critical Section Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.) 여러 스레드가 공유 자원에 동시에 접근하면 충돌이 발생하여 예기치" />
+    <meta property="og:description" content="CS 스터디 공부 목록 CS - Hyper-parameter 1. Critical Section Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.) 여러 스레드가 공유 자원에 동시에 접근하면 충돌이 발생하여" />
     <meta property="og:url" content="http://localhost:4000/tag/cs-2" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/BE-Computer-Science.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Cs" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Cs 2 - 꿈을 향해 나아가자!" />
-    <meta name="twitter:description" content="CS 스터디 공부 목록 CS - Hyper-parameter Critical Section Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.) 여러 스레드가 공유 자원에 동시에 접근하면 충돌이 발생하여 예기치" />
+    <meta name="twitter:description" content="CS 스터디 공부 목록 CS - Hyper-parameter 1. Critical Section Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.) 여러 스레드가 공유 자원에 동시에 접근하면 충돌이 발생하여" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/BE-Computer-Science.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/tag/cs-2"
     },
-    "description": "CS 스터디 공부 목록 CS - Hyper-parameter Critical Section Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.) 여러 스레드가 공유 자원에 동시에 접근하면 충돌이 발생하여 예기치"
+    "description": "CS 스터디 공부 목록 CS - Hyper-parameter 1. Critical Section Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.) 여러 스레드가 공유 자원에 동시에 접근하면 충돌이 발생하여"
 }
     </script>
 
@@ -210,7 +210,8 @@ into the {body} of the default.hbs template -->
 <!--    <li><a href="./msai-1weeks(3)">Msai - 1주차(3)</a></li>-->
 </ul>
 
-<h1 id="critical-section">Critical Section</h1>
+<h1 id="1-critical-section">1. Critical Section</h1>
+<hr />
 
 <ul>
   <li>
@@ -225,27 +226,29 @@ into the {body} of the default.hbs template -->
   <li>
     <p>락을 사용하여 Critical section을 보호하면, 멀티스레드 환경에서 안전하게 공유 자원에 접근할 수 있습니다. 하지만 락이 잘못 사용될 경우, 데드락(Deadlock)이 발생하거나 성능 저하가 일어날 수 있으므로 주의해야 합니다.</p>
   </li>
-  <li><strong>임계 구역은 지정된 시간이 지난 후 종료된다.</strong>
+  <li>
+    <p><strong>임계 구역은 지정된 시간이 지난 후 종료된다.</strong></p>
     <ul>
       <li>공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(= 임계영역)</li>
     </ul>
   </li>
-  <li>임계 영역을 해결하기 위한 방법
-    <ul>
-      <li>크리티컬 섹션 문제에 대한 모든 솔루션은 다음 요구 사항을 충족합니다.
-        <ol>
-          <li>상호배제: 한 프로세스가 임계 영역에 들어갔을 때, 다른 포르세스는 들어갈 수 없습니다.</li>
-          <li>진행률: 임계 구역에서 실행 중인 프로세스가 없고 임계 구역에 진입하려는 프로세스가 있을 때, 진입하기 위해 무한전 기다릴 필요는 없습니다.</li>
-          <li>제한된 대기: 다른 프로세스가 임계 영역에 들어가도록 요청한 후 해당 요청이 수락되기 전에 프로세스가 임계 영역에서 실행할 수 있는 횟수에 제한이 있어야 합니다.</li>
-        </ol>
-      </li>
-    </ul>
-  </li>
 </ul>
 
-<hr />
+<blockquote>
+  <p>임계 영역을 해결하기 위한 방법</p>
+  <ul>
+    <li>크리티컬 섹션 문제에 대한 모든 솔루션은 다음 요구 사항을 충족합니다.
+      <ol>
+        <li>상호배제: 한 프로세스가 임계 영역에 들어갔을 때, 다른 포르세스는 들어갈 수 없습니다.</li>
+        <li>진행률: 임계 구역에서 실행 중인 프로세스가 없고 임계 구역에 진입하려는 프로세스가 있을 때, 진입하기 위해 무한전 기다릴 필요는 없습니다.</li>
+        <li>제한된 대기: 다른 프로세스가 임계 영역에 들어가도록 요청한 후 해당 요청이 수락되기 전에 프로세스가 임계 영역에서 실행할 수 있는 횟수에 제한이 있어야 합니다.</li>
+      </ol>
+    </li>
+  </ul>
+</blockquote>
 
-<h1 id="singleton-pattern">singleton pattern</h1>
+<h1 id="2-singleton-pattern">2. Singleton pattern</h1>
+<hr />
 
 <ul>
   <li>싱글턴 패턴을 따르는 클래스는 생성자가 여러 차례 호출 되더라도 실제로 생성되는 객체는 하나이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 객체를 리턴한다.</li>
@@ -266,11 +269,38 @@ into the {body} of the default.hbs template -->
 </ul>
 
 <hr />
-
-<h1 id="overloading">Overloading</h1>
+<h2 id="3-overriding-and-overloading">3. Overriding And Overloading</h2>
+<hr />
 
 <ul>
-  <li>두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
+  <li>
+    <p>Overriding과 Overloading은 객체 지향 프로그램(OOP)에서 다형성을 구현하기 위해 사용되는 개념입니다.</p>
+
+    <ul>
+      <li>
+        <p>여기에서 다형성(Polymorphism)은 객체 지향 프로그래밍에서 여러 개의 클래스가 동일한 메서드나 프로퍼티를 가지고 있을 때,
+각 클래스의 인스턴스가 해당 메서드나 프로퍼티를 다르게 처리할 수 있는 것을 말합니다. 즉, 동일한 이름의 메서드나 프로퍼티가 다른 방식으로 동작할 수 있는 것입니다.</p>
+      </li>
+      <li>
+        <p>다형성은 상속, 추상화, 인터페이스, 오버라이딩 등의 개념들과 밀접한 관련이 있습니다. 예를 들면, 상위 클래스의 메서드를 하위 클래스에서 오버라이딩하여 다른 방식으로 동작할 수 있습니다.
+이렇게 하위 클래스에서 상위 클래스의 메서드를 재정의하면, 다형성을 구현할 수 있습니다. 또한, 추상 클래스나 인터페이스를 사용하면, 다른 클래스에서 해당 추상 클래스나 인터페이스를 상속하거나 
+구현하여 다형성을 구현할 수 있습니다.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="31-overloading">3.1. Overloading</h3>
+<hr />
+
+<ul>
+  <li>두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우입니다.</li>
+  <li>
+    <p>Overloading(오버로딩)은 동일한 이름의 메서드를 매개변수의 개수나 타입 등을 다르게하여 여러 개 정의하는 것을 말합니다.
+같은 이름의 메서드나 여러 개 있지만 매개변수의 타입이나 개수가 다르기 때문에 컨파일러는 메서드 호출 시 인자의 타입이나 개수에 맞는 메서드를 자동으로 선택해줍니다.
+예를 들면, Print() 메서드는 매개변수의 타입에 따라 여러 버전이 오버로딩됩니다.</p>
+  </li>
+  <li>아래는 자바에서 사용한 Overloading의 예제 코드입니다.
     <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="nc">Overloading</span> <span class="n">example</span>
 <span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">(</span><span class="nc">Circle</span> <span class="n">c</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
 <span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">(</span><span class="nc">Circle</span> <span class="n">c1</span><span class="o">,</span> <span class="nc">Circle</span> <span class="n">c2</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
@@ -279,15 +309,22 @@ into the {body} of the default.hbs template -->
   </li>
 </ul>
 
+<h3 id="32-overriding">3.2. Overriding</h3>
 <hr />
 
-<h1 id="overriding">Overriding</h1>
-
 <ul>
-  <li>상위 클래스의 메서드와 이름과 signature가 같은 함수를 하위 클래스에 재정의 하는 것
+  <li>상위 클래스의 메서드와 이름과 signature가 같은 함수를 하위 클래스에 재정의 하는 것 입니다.
     <ul>
-      <li>상속 관계에 있는 클래스 간에 같은 이름의 메서드를 정의하는 것.
-        <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="n">overriding</span> <span class="n">example</span>
+      <li>상속 관계에 있는 클래스 간에 같은 이름의 메서드를 정의하는 것 입니다.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Overriding(오버라이딩)은 상위 클래스가 가지고 있는 메서드를 하위 클래스에 재정의하여 사용하는 것을 말하니다.
+즉, 하위 클래스에서 상위 클래스의 메서드를 덮어쓰는 것입니다. 이를 통해 다형성을 구현할 수 있습니다. 예를 들면,
+Animal 클래스에 있는 makeSound() 메서드를 하위 클래스인 Dog 클래스에서 오버 라이딩하여 개 울음소리를 내도록 구현할 수 있습니다.</p>
+  </li>
+  <li>아래는 자바에서 사용한 Overriding의 예제 코드입니다.
+    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="n">overriding</span> <span class="n">example</span>
 <span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Shape</span> <span class="o">{</span>
 <span class="kd">public</span> <span class="kt">void</span> <span class="nf">printMe</span><span class="o">()</span> <span class="o">{</span> <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Shape"</span><span class="o">);</span> <span class="o">}</span>
 <span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">();</span>
@@ -302,15 +339,20 @@ into the {body} of the default.hbs template -->
 <span class="kd">private</span> <span class="kt">double</span> <span class="n">area</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>
 <span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">()</span> <span class="o">{</span> <span class="k">return</span> <span class="n">area</span><span class="o">;</span> <span class="o">}</span>
 <span class="o">}</span>
-</code></pre></div>        </div>
-      </li>
-    </ul>
+</code></pre></div>    </div>
+    <blockquote>
+      <ul>
+        <li>Overrindg과 Overloading은 이름은 유하사지만, 서로 다른 개념이고 용도 또한 다릅니다.</li>
+        <li>Overloading은 같은 이름의 메서드를 다양한 매개변수로 정의하는 것이고,</li>
+        <li>Overriding은 상속 관계에서 부모 클래스의 메서드를 자식 클래스에서 재정의하여 사용하는 것입니다.</li>
+      </ul>
+    </blockquote>
   </li>
 </ul>
 
+<h3 id="참고문헌">참고문헌</h3>
 <hr />
 
-<h3 id="참고문헌">참고문헌</h3>
 <ul>
   <li><a href="https://velog.io/@lovi0714/%EC%9E%84%EA%B3%84-%EC%98%81%EC%97%AD-Critical-Section">임계영역_참고문헌1</a></li>
   <li><a href="https://www.educative.io/answers/what-is-the-critical-section-problem-in-operating-systems">임계영역_참고문헌2</a></li>
