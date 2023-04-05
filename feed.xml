@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-05T19:00:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꿈을 향해 나아가자!</title><subtitle>창우의 아이티블로그</subtitle><entry><title type="html">cs - Critical Section, Singleton Pattern, Overloading, Overriding</title><link href="http://localhost:4000/tag/cs-2" rel="alternate" type="text/html" title="cs - Critical Section, Singleton Pattern, Overloading, Overriding" /><published>2023-04-05T01:40:00+09:00</published><updated>2023-04-05T01:40:00+09:00</updated><id>http://localhost:4000/tag/cs-2</id><content type="html" xml:base="http://localhost:4000/tag/cs-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-05T19:04:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꿈을 향해 나아가자!</title><subtitle>창우의 아이티블로그</subtitle><entry><title type="html">cs - Critical Section, Singleton Pattern, Overloading, Overriding</title><link href="http://localhost:4000/tag/cs-2" rel="alternate" type="text/html" title="cs - Critical Section, Singleton Pattern, Overloading, Overriding" /><published>2023-04-05T01:40:00+09:00</published><updated>2023-04-05T01:40:00+09:00</updated><id>http://localhost:4000/tag/cs-2</id><content type="html" xml:base="http://localhost:4000/tag/cs-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - Hyper-parameter&lt;/a&gt;&lt;/li&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
@@ -8,8 +8,6 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;1-critical-section&quot;&gt;1. Critical Section&lt;/h1&gt;
-&lt;hr /&gt;
-
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Critical section은 멀티스레드 환경에서 공유 자원에 대한 접근이 제한되어야 하는 코드 영역을 말합니다.(= 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미합니다.)&lt;/p&gt;
@@ -45,30 +43,24 @@
 &lt;/blockquote&gt;
 
 &lt;h1 id=&quot;2-singleton-pattern&quot;&gt;2. Singleton pattern&lt;/h1&gt;
-&lt;hr /&gt;
-
 &lt;ul&gt;
   &lt;li&gt;싱글턴 패턴을 따르는 클래스는 생성자가 여러 차례 호출 되더라도 실제로 생성되는 객체는 하나이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 객체를 리턴한다.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;이와 같은 디자인 유형을 “싱글턴 패턴”이라고 한다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;파이썬의 모듈은 그 자체로 싱글턴이다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 파이썬
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;singleton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__new__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__new__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;h2 id=&quot;3-overriding-and-overloading&quot;&gt;3. Overriding And Overloading&lt;/h2&gt;
-&lt;hr /&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 파이썬
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;singleton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__new__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__new__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__instance&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;h2 id=&quot;3-overriding-and-overloading&quot;&gt;3. Overriding And Overloading&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Overriding과 Overloading은 객체 지향 프로그램(OOP)에서 다형성을 구현하기 위해 사용되는 개념입니다.&lt;/p&gt;
@@ -88,8 +80,6 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;31-overloading&quot;&gt;3.1. Overloading&lt;/h3&gt;
-&lt;hr /&gt;
-
 &lt;ul&gt;
   &lt;li&gt;두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우입니다.&lt;/li&gt;
   &lt;li&gt;
@@ -107,8 +97,6 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;32-overriding&quot;&gt;3.2. Overriding&lt;/h3&gt;
-&lt;hr /&gt;
-
 &lt;ul&gt;
   &lt;li&gt;상위 클래스의 메서드와 이름과 signature가 같은 함수를 하위 클래스에 재정의 하는 것 입니다.
     &lt;ul&gt;
@@ -148,8 +136,6 @@ Animal 클래스에 있는 makeSound() 메서드를 하위 클래스인 Dog 클�
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;참고문헌&quot;&gt;참고문헌&lt;/h3&gt;
-&lt;hr /&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://velog.io/@lovi0714/%EC%9E%84%EA%B3%84-%EC%98%81%EC%97%AD-Critical-Section&quot;&gt;임계영역_참고문헌1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/answers/what-is-the-critical-section-problem-in-operating-systems&quot;&gt;임계영역_참고문헌2&lt;/a&gt;&lt;/li&gt;
