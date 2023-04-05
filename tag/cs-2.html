@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="꿈을 향해 나아가자!" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cs 2 - 꿈을 향해 나아가자!" />
-    <meta property="og:description" content="CS 스터디 공부 목록 CS - 첫 번째 작성 Critical Section 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다. 임계 구역은 지정된 시간이 지난 후 종료된다. 공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(=" />
+    <meta property="og:description" content="Critical Section 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다. 임계 구역은 지정된 시간이 지난 후 종료된다. 공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(= 임계영역) 임계 영역을 해결하기 위한 방법 뮤텍스, 세마포어, 모니터" />
     <meta property="og:url" content="http://localhost:4000/tag/cs-2" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/BE-Computer-Science.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Cs" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Cs 2 - 꿈을 향해 나아가자!" />
-    <meta name="twitter:description" content="CS 스터디 공부 목록 CS - 첫 번째 작성 Critical Section 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다. 임계 구역은 지정된 시간이 지난 후 종료된다. 공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(=" />
+    <meta name="twitter:description" content="Critical Section 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다. 임계 구역은 지정된 시간이 지난 후 종료된다. 공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(= 임계영역) 임계 영역을 해결하기 위한 방법 뮤텍스, 세마포어, 모니터" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/BE-Computer-Science.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/tag/cs-2"
     },
-    "description": "CS 스터디 공부 목록 CS - 첫 번째 작성 Critical Section 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다. 임계 구역은 지정된 시간이 지난 후 종료된다. 공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(="
+    "description": "Critical Section 한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다. 임계 구역은 지정된 시간이 지난 후 종료된다. 공유되는 자원 =&gt; 동시에 접근하려고 하는 자원에서 문제가 생기지 않게 보장해주어야 하는 영역이다.(= 임계영역) 임계 영역을 해결하기 위한 방법 뮤텍스, 세마포어, 모니터"
 }
     </script>
 
@@ -201,16 +201,7 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><span class="table-of-contents-list">CS 스터디 공부 목록 </span></p>
-<ul class="table-of-contents-list">
-    <li><a href="./cs-1">CS - 첫 번째 작성</a></li>
-<!--    <li><a href="./coding-thiscoding(20230117)">Coding - 순차 탐색</a></li>-->
-<!--    <li><a href="./coding-thiscoding(20230118)">Coding - 이진 탐색</a></li>-->
-<!--    <li><a href="./msai-1weeks(2)">Msai - 1주차(2)</a></li>-->
-<!--    <li><a href="./msai-1weeks(3)">Msai - 1주차(3)</a></li>-->
-</ul>
-
-<h1 id="critical-section">Critical Section</h1>
+                    <h1 id="critical-section">Critical Section</h1>
 
 <ul>
   <li>한 순간 반드시 프로세스 하나만 집입해야 하는데, 프로그램에서 임계 자원을 이용하는 부분으로 공유 자원의 독점을 보장하는 코드 영역을 의미한다.
@@ -250,10 +241,48 @@ into the {body} of the default.hbs template -->
         <span class="n">cls</span><span class="p">.</span><span class="n">__instance</span> <span class="o">=</span> <span class="nb">object</span><span class="p">.</span><span class="n">__new__</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">cls</span><span class="p">.</span><span class="n">__instance</span>
 </code></pre></div>    </div>
-    <h3 id="참고문헌">참고문헌</h3>
+  </li>
+</ul>
+
+<h1 id="overloading">Overloading</h1>
+<ul>
+  <li>두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
+    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="nc">Overloading</span> <span class="n">example</span>
+<span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">(</span><span class="nc">Circle</span> <span class="n">c</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">(</span><span class="nc">Circle</span> <span class="n">c1</span><span class="o">,</span> <span class="nc">Circle</span> <span class="n">c2</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">(</span><span class="nc">Square</span> <span class="n">c</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="overriding">Overriding</h1>
+<ul>
+  <li>상위 클래스의 메서드와 이름과 signature가 같은 함수를 하위 클래스에 재정의 하는 것
+    <ul>
+      <li>상속 관계에 있는 클래스 간에 같은 이름의 메서드를 정의하는 것.
+        <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="n">overriding</span> <span class="n">example</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Shape</span> <span class="o">{</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">printMe</span><span class="o">()</span> <span class="o">{</span> <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Shape"</span><span class="o">);</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Circle</span> <span class="kd">extends</span> <span class="nc">Shape</span> <span class="o">{</span>
+<span class="kd">private</span> <span class="kt">double</span> <span class="n">rad</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span>
+<span class="nd">@Override</span> <span class="c1">// 개발자의 실수를 방지하기 위해 @Override(annotation) 쓰는 것을 권장</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">printMe</span><span class="o">()</span> <span class="o">{</span> <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Circle"</span><span class="o">);</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">()</span> <span class="o">{</span> <span class="k">return</span> <span class="n">rad</span> <span class="o">*</span> <span class="n">rad</span> <span class="o">*</span> <span class="mf">3.15</span><span class="o">;</span> <span class="o">}</span>
+<span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Ambiguous</span> <span class="kd">extends</span> <span class="nc">Shape</span> <span class="o">{</span>
+<span class="kd">private</span> <span class="kt">double</span> <span class="n">area</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>
+<span class="kd">public</span> <span class="kt">double</span> <span class="nf">computeArea</span><span class="o">()</span> <span class="o">{</span> <span class="k">return</span> <span class="n">area</span><span class="o">;</span> <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>        </div>
+        <h3 id="참고문헌">참고문헌</h3>
+      </li>
+    </ul>
   </li>
   <li><a href="https://velog.io/@lovi0714/%EC%9E%84%EA%B3%84-%EC%98%81%EC%97%AD-Critical-Section">임계영역</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Singleton_pattern">Sigleton Pattern</a></li>
+  <li><a href="https://gmlwjd9405.github.io/2018/08/09/java-overloading-vs-overriding.html">overring and overloading</a></li>
 </ul>
 
                 </div>
@@ -364,7 +393,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/tag/cs-1">cs - cs 스터디 첫번째</a></li>
+                                            <li><a href="/tag/cs-1">cs - Hyper-parameter</a></li>
                                         
                                     
                                   
@@ -442,13 +471,13 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">cs - cs 스터디 첫번째</h2>
+                    <h2 class="post-card-title">cs - Hyper-parameter</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
                         <p>CS 스터디 공부 목록 
 
-    CS - 첫 번째 작성
+    CS - Hyper-parameter
 
 
 
