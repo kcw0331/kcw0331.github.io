@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-13T19:08:25+09:00</updated>
+  <updated>2023-04-17T22:43:14+09:00</updated>
   <id>http://localhost:4000/tag/cs/feed.xml</id>
 
   
@@ -30,6 +30,116 @@
   
   
 
+  
+    <entry>
+      <title type="html">cs - Database Normalization</title>
+      <link href="http://localhost:4000/tag/cs-3" rel="alternate" type="text/html" title="cs - Database Normalization" />
+      <published>2023-04-17T09:40:00+09:00</published>
+      <updated>2023-04-17T09:40:00+09:00</updated>
+      <id>http://localhost:4000/tag/cs-3</id>
+      <content type="html" xml:base="http://localhost:4000/tag/cs-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - Hyper-parameter&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;database---normalization&quot;&gt;Database - Normalization&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터베이스-정규화에-대해서-설명해-보세요&quot;&gt;데이터베이스 정규화에 대해서 설명해 보세요.&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;정의&quot;&gt;정의&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터베이스 정규화(Database Normalization)는 관계형 데이터베이스에서 중복 데이터를 최소화하고 데이터 구조를 효율적으로 설계하기 위한 과정입니다.&lt;/li&gt;
+  &lt;li&gt;정규화를 통해 데이터베이스의 무결성, 일관성 및 유지 관리가 용이해집니다. 정규화는 여러 단계로 나뉘며, 이를 정규 형태(Normal Forms)라고 부릅니다.&lt;/li&gt;
+  &lt;li&gt;주요 정규 형태로는 제1정규형(1NF), 제2정규형(2NF), 제3정규형(3NF), BCNF(Boyce-Codd Normal Form) 등이 있습니다.&lt;/li&gt;
+  &lt;li&gt;가장 만힝 쓰이는 형태는 제1정규형과 제2정규형이라고 볼 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-제1정규형1nf&quot;&gt;1. 제1정규형(1NF)&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;제1정규형은 테이블의 모든 컬럼이 원자 값(Atomic Value)을 가져야 하며, 중복되는 값이 없도록 하는 것입니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 테이블의 각 행이 고유한 키(Primary Key)를 갖게 되어 데이터 중복을 줄입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-제2정규형2nf&quot;&gt;2. 제2정규형(2NF)&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;제2정규형은 제1정규형을 만족한 상태에서 부분적 함수 종속(Partial Functional Dependency)을 제거하는 것입니다.&lt;/li&gt;
+  &lt;li&gt;부분적 함수 종속은 기본 키가 복합키인 경우, 일부 속성이 기본 키의 일부 속성에만 종속되어 있는 상황을 말합니다.&lt;/li&gt;
+  &lt;li&gt;이를 해결하기 위해 테이블을 분리하여 중복을 제거하고 무결성을 유지합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-제3정규형3nf&quot;&gt;3. 제3정규형(3NF)&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;제3정규형은 제2정규형을 만족한 상태에서 이행적 함수 종속(Transitive Functional Dependency)을 제거하는 것입니다.&lt;/li&gt;
+  &lt;li&gt;이행적 함수 종속은 한 속성이 다른 속성에 간접적으로 종속되어 있는 상황을 말합니다.&lt;/li&gt;
+  &lt;li&gt;이를 해결하기 위해 간접적으로 종속된 속성을 독립된 테이블로 분리하여 중복을 제거하고 무결성을 유지합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-bcnf-boyce-codd-normal-form&quot;&gt;4. BCNF (Boyce-Codd Normal Form)&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;BCNF는 제3정규형을 만족한 상태에서 추가로 모든 결정자(Determinant)가 후보키(Candidate Key)가 되도록 하는 것입니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 테이블에서 발생할 수 있는 함수 종속 관계가 후보키에만 의존하도록 만들어 데이터베이스의 무결성과 일관성을 향상시킵니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;정규화 과정을 통해 데이터베이스의 중복을 줄이고 무결성을 높일 수 있지만 너무 많은 정규화는 데이터베이스의 성능과 복잡도에 영향을 줄 수 있습니다. 
+이로 인해 여러 테이블 간의 조인 연산이 많아지거나 데이터 처리 시간이 증가할 수 있습니다. 
+따라서, 정규화의 단계를 선택할 때는 데이터베이스의 목적, 사용 패턴, 성능 요구 사항 등을 고려하여 적절한 균형을 찾아야 합니다. 
+이를 위해, 실제 구현 시에는 3NF 또는 BCNF까지 정규화를 수행하고, 필요에 따라 일부 비정규화를 적용하기도 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;참고자료&quot;&gt;참고자료&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mangkyu.tistory.com/110&quot;&gt;데이터베이스-정규화1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datalibrary.tistory.com/256&quot;&gt;데이터베이스-정규화2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sjsage522.github.io/posts/db-normalization-denormalization/&quot;&gt;데이터베이스-정규화3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://danha23.tistory.com/16&quot;&gt;데이터베이스-정규화4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cs" />
+      
+
+      
+        <summary type="html">CS 스터디 공부 목록 CS - Hyper-parameter</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">cs - Critical Section, Singleton Pattern, Overloading, Overriding</title>
