@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-17T22:43:14+09:00</updated>
+  <updated>2023-04-19T18:02:48+09:00</updated>
   <id>http://localhost:4000/tag/cs/feed.xml</id>
 
   
@@ -54,14 +54,40 @@
 &lt;p&gt;
 &lt;/p&gt;
 
-&lt;h3 id=&quot;정의&quot;&gt;정의&lt;/h3&gt;
+&lt;h3 id=&quot;정규화-란&quot;&gt;정규화 란&lt;/h3&gt;
 &lt;p&gt;
 &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;데이터베이스 정규화(Database Normalization)는 관계형 데이터베이스에서 중복 데이터를 최소화하고 데이터 구조를 효율적으로 설계하기 위한 과정입니다.&lt;/li&gt;
-  &lt;li&gt;정규화를 통해 데이터베이스의 무결성, 일관성 및 유지 관리가 용이해집니다. 정규화는 여러 단계로 나뉘며, 이를 정규 형태(Normal Forms)라고 부릅니다.&lt;/li&gt;
+  &lt;li&gt;정규화를 통해 데이터베이스의 무결성, 일관성 및 유지 관리가 용이해집니다.&lt;/li&gt;
+  &lt;li&gt;정규화는 여러 단계로 나뉘며, 이를 정규 형태(Normal Forms)라고 부릅니다.&lt;/li&gt;
   &lt;li&gt;주요 정규 형태로는 제1정규형(1NF), 제2정규형(2NF), 제3정규형(3NF), BCNF(Boyce-Codd Normal Form) 등이 있습니다.&lt;/li&gt;
-  &lt;li&gt;가장 만힝 쓰이는 형태는 제1정규형과 제2정규형이라고 볼 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;가장 많이 쓰이는 형태는 제1정규형과 제2정규형이라고 볼 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;정규화의-장점&quot;&gt;정규화의 장점&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터베이스 변경 시 이상 현상(Anomaly)를 제거할 수 있다.&lt;/li&gt;
+  &lt;li&gt;정규화된 데이터베이스 구조에서는 새로운 데이터 형의 추가로 인한 확장 시, 그 구조를 변경하지 않거나 일부만 변경하여 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;정규화의-단점&quot;&gt;정규화의 단점&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터베이스 정규화는 데이터의 중복 속성을 제거하고 결정자에 의해 동일한 의미의 일반 속성이 하나의 테이블로 집약되므로 한 테이블의 데이터 용량이 최소화되는 효과가 있습니다.&lt;/li&gt;
+  &lt;li&gt;그러나 릴레이션의 분해로 인해 릴레이션 간의 JOIN연산이 많아져서 &lt;strong&gt;질의에 대한 응답 시간이 느려질&lt;/strong&gt; 수도 있습니다.&lt;/li&gt;
+  &lt;li&gt;만약 조인이 많이 발생하여 성능 저하가 나타나면 &lt;strong&gt;반정규화(De-normalization)&lt;/strong&gt;를 적용할 수도 있습니다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;참고자료정규화의-단점&quot;&gt;참고자료(정규화의 단점)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ggggraceful.github.io/posts/Normalization/&quot;&gt;정규화의 단점1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sodayeong.tistory.com/106&quot;&gt;정규화의 단점2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datalibrary.tistory.com/256&quot;&gt;정규화의 단점3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code-lab1.tistory.com/48&quot;&gt;정규화의 단점4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;1-제1정규형1nf&quot;&gt;1. 제1정규형(1NF)&lt;/h3&gt;
@@ -72,6 +98,142 @@
   &lt;li&gt;이를 통해 테이블의 각 행이 고유한 키(Primary Key)를 갖게 되어 데이터 중복을 줄입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;규칙&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;각 컬럼이 하나의 속성만을 가져야 한다.&lt;/li&gt;
+    &lt;li&gt;하나의 컬럼은 같은 종류나 타입(type)의 값을 가져야 한다.&lt;/li&gt;
+    &lt;li&gt;각 컬럼이 유일한(unique) 이름을 가져야 한다.&lt;/li&gt;
+    &lt;li&gt;컬럼의 순서가 상관이 없어야 한다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1NF가 필요한 테이블&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;학생번호&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;이름&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;과목&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;아이유&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;운영체제,DB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;한지민&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;자바&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;임수정&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C, C++&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;규칙&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;만족/불만족&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;각 컬럼이 하나의 속성만을 가져야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;불만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;하나의 컬럼은 같은 종류나 타입(type)의 값을 가져야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;각 컬럼이 유일한(unique) 이름을 가져야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;컬럼의 순서가 상관이 없어야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1NF를 적용한 테이블&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;학생번호&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;이름&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;과목&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;아이유&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;운영체제&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;아이유&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;한지민&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;자바&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;임수정&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;임수정&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C++&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;규칙&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;만족/불만족&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;각 컬럼이 하나의 속성만을 가져야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;하나의 컬럼은 같은 종류나 타입(type)의 값을 가져야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;각 컬럼이 유일한(unique) 이름을 가져야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;컬럼의 순서가 상관이 없어야 한다.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;만족&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h3 id=&quot;2-제2정규형2nf&quot;&gt;2. 제2정규형(2NF)&lt;/h3&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -80,6 +242,120 @@
   &lt;li&gt;부분적 함수 종속은 기본 키가 복합키인 경우, 일부 속성이 기본 키의 일부 속성에만 종속되어 있는 상황을 말합니다.&lt;/li&gt;
   &lt;li&gt;이를 해결하기 위해 테이블을 분리하여 중복을 제거하고 무결성을 유지합니다.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;규칙&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;1정규형을 만족해야 한다.&lt;/li&gt;
+    &lt;li&gt;모든 컬럼이 부분적 종속이 없어야 한다.(즉, 모든 컬럼이 완전 함수 종속을 만족해야 한다.)&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2NF이 필요한 테이블&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;학생번호&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;과목&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;지도교수&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;성적&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;운영체제&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;김운체&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DB&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;조디비&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;60&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;자바&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;박자바&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;70&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;김씨&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;80&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C++&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;이씨플&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;90&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2NF을 적용한 테이블&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;학생번호&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;과목&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;성적&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;—&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;과목&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;지도교수&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;운영체제&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;운영체제&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;김운체&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DB&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;60&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DB&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;조디비&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;자바&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;70&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;자바&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;박자바&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;80&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;김씨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C++&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;90&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;c++&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;이씨플&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&quot;3-제3정규형3nf&quot;&gt;3. 제3정규형(3NF)&lt;/h3&gt;
 &lt;p&gt;
@@ -90,6 +366,84 @@
   &lt;li&gt;이를 해결하기 위해 간접적으로 종속된 속성을 독립된 테이블로 분리하여 중복을 제거하고 무결성을 유지합니다.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;규칙&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;2 정규형을 만족해야 한다.&lt;/li&gt;
+    &lt;li&gt;기본키를 제외한 속성들 간의 이행 종속성이 없어야 한다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3NF이 필요한 테이블&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;ID&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;등급&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;할인율&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Vip&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;40%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gold&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bronze&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3NF을 적용한 테이블&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;ID&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;등급&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;—&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;등급&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;할인율&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Vip&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Vip&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;40%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gold&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gold&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;103&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bronze&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;—&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bronze&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h3 id=&quot;4-bcnf-boyce-codd-normal-form&quot;&gt;4. BCNF (Boyce-Codd Normal Form)&lt;/h3&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -99,10 +453,19 @@
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;정규화 과정을 통해 데이터베이스의 중복을 줄이고 무결성을 높일 수 있지만 너무 많은 정규화는 데이터베이스의 성능과 복잡도에 영향을 줄 수 있습니다. 
-이로 인해 여러 테이블 간의 조인 연산이 많아지거나 데이터 처리 시간이 증가할 수 있습니다. 
-따라서, 정규화의 단계를 선택할 때는 데이터베이스의 목적, 사용 패턴, 성능 요구 사항 등을 고려하여 적절한 균형을 찾아야 합니다. 
-이를 위해, 실제 구현 시에는 3NF 또는 BCNF까지 정규화를 수행하고, 필요에 따라 일부 비정규화를 적용하기도 합니다.&lt;/p&gt;
+  &lt;p&gt;정규화 과정을 통해 데이터베이스의 중복을 줄이고 무결성을 높일 수 있지만 너무 많은 정규화는 데이터베이스의 성능과 복잡도에 영향을 줄 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이로 인해 여러 테이블 간의 조인 연산이 많아지거나 데이터 처리 시간이 증가할 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;따라서, 정규화의 단계를 선택할 때는 데이터베이스의 목적, 사용 패턴, 성능 요구 사항 등을 고려하여 적절한 균형을 찾아야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이를 위해, 실제 구현 시에는 3NF 또는 BCNF까지 정규화를 수행하고, 필요에 따라 일부 비정규화를 적용하기도 합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;참고자료&quot;&gt;참고자료&lt;/h3&gt;
