@@ -489,6 +489,8 @@ into the {body} of the default.hbs template -->
   <li>2NF을 적용한 테이블</li>
 </ul>
 
+<p>&lt;성적테이블 &amp; 과목테이블&gt;</p>
+
 <table>
   <thead>
     <tr>
@@ -563,6 +565,14 @@ into the {body} of the default.hbs template -->
   </tbody>
 </table>
 
+<blockquote>
+  <p>2NF 적용 효과</p>
+  <ol>
+    <li>2정규화를 진행하면 이와 같이 테이블을 둘로 나눌 수 있게 됩니다.</li>
+    <li>성적테이블과 과목테이블로 나누어서 데이터를 관리하게 되면 변경사항이 발생했을 때에 해당 테이블의 데이터만 수정하는 것이 가능해집니다.</li>
+  </ol>
+</blockquote>
+
 <h3 id="3-제3정규형3nf">3. 제3정규형(3NF)</h3>
 <p>
 </p>
@@ -634,6 +644,8 @@ into the {body} of the default.hbs template -->
   <li>3NF을 적용한 테이블</li>
 </ul>
 
+<p>&lt;ID테이블 &amp; 등급테이블&gt;</p>
+
 <table>
   <thead>
     <tr>
@@ -688,6 +700,14 @@ into the {body} of the default.hbs template -->
   </tbody>
 </table>
 
+<blockquote>
+  <p>3NF 적용 효과</p>
+  <ol>
+    <li>3정규화를 진행하면 이와 같이 2개의 테이블로 분리해서 관리할 수 있습니다.</li>
+    <li>기존 하나의 테이블에 중복해서 들어가야 했던 속성인 할인율은 등급테이블에서 별도로 관리하고 대신 ID테이블에 등급을 외래키(Foreign Key)로 설정해서 부서테이블과 Join해서 사용할 수 있도록 합니다.</li>
+  </ol>
+</blockquote>
+
 <h3 id="4-bcnf-boyce-codd-normal-form">4. BCNF (Boyce-Codd Normal Form)</h3>
 <p>
 </p>
@@ -705,7 +725,7 @@ into the {body} of the default.hbs template -->
 </blockquote>
 
 <ul>
-  <li>4NF적용이 필요한 테이블</li>
+  <li>BCNF적용이 필요한 테이블</li>
 </ul>
 
 <table>
@@ -765,7 +785,7 @@ into the {body} of the default.hbs template -->
 </table>
 
 <ul>
-  <li>4NF적용한 테이블</li>
+  <li>BCNF적용한 테이블</li>
 </ul>
 
 <table>

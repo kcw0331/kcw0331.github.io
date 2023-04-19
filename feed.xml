@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-19T19:13:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꿈을 향해 나아가자!</title><subtitle>창우의 아이티블로그</subtitle><entry><title type="html">cs - Database Normalization</title><link href="http://localhost:4000/tag/cs-3" rel="alternate" type="text/html" title="cs - Database Normalization" /><published>2023-04-17T09:40:00+09:00</published><updated>2023-04-17T09:40:00+09:00</updated><id>http://localhost:4000/tag/cs-3</id><content type="html" xml:base="http://localhost:4000/tag/cs-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-19T21:29:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">꿈을 향해 나아가자!</title><subtitle>창우의 아이티블로그</subtitle><entry><title type="html">cs - Database Normalization</title><link href="http://localhost:4000/tag/cs-3" rel="alternate" type="text/html" title="cs - Database Normalization" /><published>2023-04-17T09:40:00+09:00</published><updated>2023-04-17T09:40:00+09:00</updated><id>http://localhost:4000/tag/cs-3</id><content type="html" xml:base="http://localhost:4000/tag/cs-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - Hyper-parameter&lt;/a&gt;&lt;/li&gt;
 &lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
@@ -286,6 +286,8 @@
   &lt;li&gt;2NF을 적용한 테이블&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&amp;lt;성적테이블 &amp;amp; 과목테이블&amp;gt;&lt;/p&gt;
+
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
@@ -360,6 +362,14 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;2NF 적용 효과&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;2정규화를 진행하면 이와 같이 테이블을 둘로 나눌 수 있게 됩니다.&lt;/li&gt;
+    &lt;li&gt;성적테이블과 과목테이블로 나누어서 데이터를 관리하게 되면 변경사항이 발생했을 때에 해당 테이블의 데이터만 수정하는 것이 가능해집니다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
 &lt;h3 id=&quot;3-제3정규형3nf&quot;&gt;3. 제3정규형(3NF)&lt;/h3&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -431,6 +441,8 @@
   &lt;li&gt;3NF을 적용한 테이블&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&amp;lt;ID테이블 &amp;amp; 등급테이블&amp;gt;&lt;/p&gt;
+
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
@@ -485,6 +497,14 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;3NF 적용 효과&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;3정규화를 진행하면 이와 같이 2개의 테이블로 분리해서 관리할 수 있습니다.&lt;/li&gt;
+    &lt;li&gt;기존 하나의 테이블에 중복해서 들어가야 했던 속성인 할인율은 등급테이블에서 별도로 관리하고 대신 ID테이블에 등급을 외래키(Foreign Key)로 설정해서 부서테이블과 Join해서 사용할 수 있도록 합니다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
 &lt;h3 id=&quot;4-bcnf-boyce-codd-normal-form&quot;&gt;4. BCNF (Boyce-Codd Normal Form)&lt;/h3&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -502,7 +522,7 @@
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;4NF적용이 필요한 테이블&lt;/li&gt;
+  &lt;li&gt;BCNF적용이 필요한 테이블&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;table&gt;
@@ -562,7 +582,7 @@
 &lt;/table&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;4NF적용한 테이블&lt;/li&gt;
+  &lt;li&gt;BCNF적용한 테이블&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;table&gt;
