@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-19T21:29:28+09:00</updated>
+  <updated>2023-04-19T21:32:26+09:00</updated>
   <id>http://localhost:4000/author/kcw0331/feed.xml</id>
 
   
@@ -707,6 +707,11 @@
 &lt;blockquote&gt;
   &lt;p&gt;이를 위해, 실제 구현 시에는 3NF 또는 BCNF까지 정규화를 수행하고, 필요에 따라 일부 비정규화를 적용하기도 합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h3 id=&quot;5-반정규화&quot;&gt;5. 반정규화&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;고의적으로 3정규화를 진행하지 않고 데이터베이스를 설계하는 것을 반정규화라고 부르는데, 위의 3정규화 예시에서 살펴본 3정규화가 이루어지지 않은 경우에 해당하는 테이블이 그대로 사용되는 것입니다&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;참고자료&quot;&gt;참고자료&lt;/h3&gt;
 &lt;p&gt;
