@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-23T19:01:34+09:00</updated>
+  <updated>2023-04-23T20:43:01+09:00</updated>
   <id>http://localhost:4000/author/kcw0331/feed.xml</id>
 
   
@@ -226,7 +226,6 @@ NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위
 &lt;h1 id=&quot;database---normalization&quot;&gt;Database - Normalization&lt;/h1&gt;
 &lt;p&gt;
 &lt;/p&gt;
-
 &lt;h2 id=&quot;데이터베이스-정규화에-대해서-설명해-보세요&quot;&gt;데이터베이스 정규화에 대해서 설명해 보세요.&lt;/h2&gt;
 &lt;p&gt;
 &lt;/p&gt;
