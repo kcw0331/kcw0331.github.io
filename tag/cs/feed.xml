@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-19T21:32:26+09:00</updated>
+  <updated>2023-04-23T19:01:34+09:00</updated>
   <id>http://localhost:4000/tag/cs/feed.xml</id>
 
   
@@ -30,6 +30,183 @@
   
   
 
+  
+    <entry>
+      <title type="html">cs - Database RDBMS And NoSQL</title>
+      <link href="http://localhost:4000/tag/cs-4" rel="alternate" type="text/html" title="cs - Database RDBMS And NoSQL" />
+      <published>2023-04-21T09:40:00+09:00</published>
+      <updated>2023-04-21T09:40:00+09:00</updated>
+      <id>http://localhost:4000/tag/cs-4</id>
+      <content type="html" xml:base="http://localhost:4000/tag/cs-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - Hyper-parameter&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;rdbms와-nosql의-차이점&quot;&gt;RDBMS와 NoSQL의 차이점&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Databse&lt;/strong&gt;란 일반적으로 컴퓨터 시스템에 전자 방식으로 저장된 구조화된 정보 또는 데이터의 체계적인 집합이다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DBMS&lt;/strong&gt;란(DataBase Management System) 사용자와 데이터베이스 사이에서 사용자의 요구에 따라 정보를 생성해 주고 데이터베이스를 관리해 주는 소프트웨어이다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SQL&lt;/strong&gt;이란(Strucured Query Language) 관계형 데이터베이스 관리 시스템의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어이다. 
+관계형 데이터베이스 관리 시스템에서 자료의 검색과 관리, 데이터베이스 스키마 생성과 수정, 데이터베이스 객체 접근 조정 관리를 위해 사용된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-rdbms&quot;&gt;1. RDBMS&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;RDBMS에서 R은(Relational)의 약자로 RDBMS는 관계형 데이터베이스 관리 시스템을 의미한다.&lt;/li&gt;
+  &lt;li&gt;RDBMS는 RDB를 관리하는 시스템이며 RDB는 관계형 데이터 모델을 기초로 두고 모든 데이터를 2차원 테이블 형태로 표현하는 데이터베이스이다.&lt;/li&gt;
+  &lt;li&gt;관계형 데이터베이스(RDMBS)는 아래와 같이 구성된 테이블이 다른 테이블들과 관계를 맺고 모여있는 집합체로 이해할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;또한 이러한 것을 나타내기 위해 primary key와 foreign key를 사용한다.&lt;/li&gt;
+  &lt;li&gt;이러한 테이블간의 관계에서 primary key와 foreign key를 이용하여 테이블 간 JOIN을 사용하여 결과를 추출해낸다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[회원 테이블]&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;회원 번호(Primay key)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;회원 이름&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;휴대폰 번호&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;111&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;홍길동&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11111111111&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;222&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;김철수&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22222222222&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;아무개&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;33333333333&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;[주문 테이블]&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;주문 번호(Primay key)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;회원 번호(Foreign key)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;주문 상품&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;202303220001&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;111&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;아이폰&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;202303230002&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;222&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;맥북&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;202303240003&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;아이패드&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;2-nosql&quot;&gt;2. NoSQL&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;NoSQL은 RDBMS와 다르게 테이블 간에 관계를 정의하지 않는다.&lt;/li&gt;
+  &lt;li&gt;데이터의 테이블은 하나의 테이블이고 테이블 간의 관계를 정의하지 않아서 테이블 간의 JOIN이 불가능하다.&lt;/li&gt;
+  &lt;li&gt;NoSQL은 빅데이터의 등장으로 인해 데이터와 트래픽이 기하급수적으로 증가함에 따라 데이터의 일관성은 포기하고 비용을 고려하여 여러 대의 데이터에 분산하여 저장하는 Scale-Out을 등장시키게 되었다.
+NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위해 사용하는 Scale-Up이 비용을 기하급수적으로 증가시키기 때문이다.&lt;/li&gt;
+  &lt;li&gt;NoSQL은 Document기반인 MongoDB를 많이들 기억하고 있을 것이다. 하지만 MongoDB도 NoSQL의 한 종류중 하나이기 때문에 NoSQL은 아래와 같은 다양한 형태의 저장 기술을 가지고 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;21-key-value-database&quot;&gt;2.1. Key-Value Database&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Key-Value Database는 데이터가 Key와 Value의 쌍으로 저장된다.&lt;/li&gt;
+  &lt;li&gt;NoSQL Key-Value Model: Redis, Riak, Amazon, Dynamo DB etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;22-document-database&quot;&gt;2.2. Document Database&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Document Database 데이터는 Key와 Document의 형태로 저장된다.&lt;/li&gt;
+  &lt;li&gt;Key-Value 모델과 다른 점은 Value가 계측적인 형태인 도큐먼트로 저장된다. 객체지향에서의 객체와 유사하며, 이것들이 하나의 단위로 저장된다.&lt;/li&gt;
+  &lt;li&gt;즉, 하나의 객체를 여러 개의 테이블에 나뉘어 저장할 필요가 없다.&lt;/li&gt;
+  &lt;li&gt;단점: 사용이 번거롭고 퀴리가 SQL문과는 다르다. 도큐먼트 모델에서는 질의의 결과가 JSON이나 XML형태로 출력되기 때문에 그 사용 방법이 RDBMS에서의 질의 결과와는 다르다.&lt;/li&gt;
+  &lt;li&gt;NoSQL Document Model: MongoDB, CouthDB etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;23-wide-column-database&quot;&gt;2.3. Wide Column Database&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Column-family Model 기반의 Database이며 이전의 모델들이 Key-Value 값을 이용해 필드를 결정했다면, 특이하게도 이 모델은 키에서 필드를 결정한다.&lt;/li&gt;
+  &lt;li&gt;키는 Row(키 값)와 Column-family, Column-name을 가진다. 연관된 데이터들은 같은 Column-family 안에 속해 있으며, 각자의 Column-name을 가진다. 관계형 모델로 설명하자면 어트리뷰트가 계층적인 구조를 가지고 있다.&lt;/li&gt;
+  &lt;li&gt;이렇게 저장된 데이터는 하나의 커다란 테이블로 표현이 가능하며, 질의는 Row, Column-family, Column-name을 통해 수행된다.&lt;/li&gt;
+  &lt;li&gt;NoSQL Column-family Model: HBase, Hypertable etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;24-graph-database&quot;&gt;2.4. Graph Database&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Graph Model Model에서는 데이터를 Node와 Edge, Property와 함께 그래프 구조를 사용하여 데이터를 표현하고 저장하는 Database이다.&lt;/li&gt;
+  &lt;li&gt;개체와 관계를 그래프 형태로 표현한 것이므로 관계형 모델이라고 할 수 있으며, 데이터 간의 관계가 탐색의 키일 경우에 적합하다.&lt;/li&gt;
+  &lt;li&gt;페이스북이나 트위터 같은 소셜 네트워크에서(내 친구의 친구를 찾는 질의 등) 적합하고, 연관된 데이터를 추천해주는 추천 엔진이나 패턴 인식 등의 데이터베이스로도 적합하다.&lt;/li&gt;
+  &lt;li&gt;NoSQL Graph Model: Neo4J.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://khj93.tistory.com/entry/Database-RDBMS%EC%99%80-NOSQL-%EC%B0%A8%EC%9D%B4%EC%A0%90&quot;&gt;참고자료1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cs" />
+      
+
+      
+        <summary type="html">CS 스터디 공부 목록 CS - Hyper-parameter</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">cs - Database Normalization</title>
