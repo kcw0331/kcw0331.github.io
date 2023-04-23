@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-23T20:58:34+09:00</updated>
+  <updated>2023-04-23T21:55:55+09:00</updated>
   <id>http://localhost:4000/author/kcw0331/feed.xml</id>
 
   
@@ -134,8 +134,8 @@
 &lt;ul&gt;
   &lt;li&gt;NoSQL은 RDBMS와 다르게 테이블 간에 관계를 정의하지 않는다.&lt;/li&gt;
   &lt;li&gt;데이터의 테이블은 하나의 테이블이고 테이블 간의 관계를 정의하지 않아서 테이블 간의 JOIN이 불가능하다.&lt;/li&gt;
-  &lt;li&gt;NoSQL은 빅데이터의 등장으로 인해 데이터와 트래픽이 기하급수적으로 증가함에 따라 데이터의 일관성은 포기하고 비용을 고려하여 여러 대의 데이터에 분산하여 저장하는 Scale-Out을 등장시키게 되었다.
-NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위해 사용하는 Scale-Up이 비용을 기하급수적으로 증가시키기 때문이다.&lt;/li&gt;
+  &lt;li&gt;NoSQL은 빅데이터의 등장으로 인해 데이터와 트래픽이 기하급수적으로 증가함에 따라 데이터의 일관성은 포기하고 비용을 고려하여 여러 대의 데이터에 분산하여 저장하는 &lt;strong&gt;Scale-Out&lt;/strong&gt;을 등장시키게 되었다.
+&lt;strong&gt;NoSQL을 사용하는 이유는&lt;/strong&gt; RDBMS의 단점인 성능을 향상시키기 위해 사용하는 Scale-Up이 비용을 기하급수적으로 증가시키기 때문이다.&lt;/li&gt;
   &lt;li&gt;NoSQL은 Document기반인 MongoDB를 많이들 기억하고 있을 것이다. 하지만 MongoDB도 NoSQL의 한 종류중 하나이기 때문에 NoSQL은 아래와 같은 다양한 형태의 저장 기술을 가지고 있다.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -145,7 +145,7 @@ NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위
 
 &lt;ul&gt;
   &lt;li&gt;Key-Value Database는 데이터가 Key와 Value의 쌍으로 저장된다.&lt;/li&gt;
-  &lt;li&gt;NoSQL Key-Value Model: Redis, Riak, Amazon, Dynamo DB etc.&lt;/li&gt;
+  &lt;li&gt;NoSQL Key-Value Model: Redis, Riak, Amazon DynamoDB etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;22-document-database&quot;&gt;2.2. Document Database&lt;/h3&gt;
@@ -157,7 +157,7 @@ NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위
   &lt;li&gt;Key-Value 모델과 다른 점은 Value가 계측적인 형태인 도큐먼트로 저장된다. 객체지향에서의 객체와 유사하며, 이것들이 하나의 단위로 저장된다.&lt;/li&gt;
   &lt;li&gt;즉, 하나의 객체를 여러 개의 테이블에 나뉘어 저장할 필요가 없다.&lt;/li&gt;
   &lt;li&gt;단점: 사용이 번거롭고 퀴리가 SQL문과는 다르다. 도큐먼트 모델에서는 질의의 결과가 JSON이나 XML형태로 출력되기 때문에 그 사용 방법이 RDBMS에서의 질의 결과와는 다르다.&lt;/li&gt;
-  &lt;li&gt;NoSQL Document Model: MongoDB, CouthDB etc.&lt;/li&gt;
+  &lt;li&gt;NoSQL Document Model: MongoDB, Apache CouchDB etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;23-wide-column-database&quot;&gt;2.3. Wide Column Database&lt;/h3&gt;
@@ -168,7 +168,7 @@ NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위
   &lt;li&gt;Column-family Model 기반의 Database이며 이전의 모델들이 Key-Value 값을 이용해 필드를 결정했다면, 특이하게도 이 모델은 키에서 필드를 결정한다.&lt;/li&gt;
   &lt;li&gt;키는 Row(키 값)와 Column-family, Column-name을 가진다. 연관된 데이터들은 같은 Column-family 안에 속해 있으며, 각자의 Column-name을 가진다. 관계형 모델로 설명하자면 어트리뷰트가 계층적인 구조를 가지고 있다.&lt;/li&gt;
   &lt;li&gt;이렇게 저장된 데이터는 하나의 커다란 테이블로 표현이 가능하며, 질의는 Row, Column-family, Column-name을 통해 수행된다.&lt;/li&gt;
-  &lt;li&gt;NoSQL Column-family Model: HBase, Hypertable etc.&lt;/li&gt;
+  &lt;li&gt;NoSQL Column-family Model: Apache HBase, Hypertable etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;24-graph-database&quot;&gt;2.4. Graph Database&lt;/h3&gt;
@@ -179,7 +179,7 @@ NoSQL을 사용하는 이유는 RDBMS의 단점인 성능을 향상시키기 위
   &lt;li&gt;Graph Model Model에서는 데이터를 Node와 Edge, Property와 함께 그래프 구조를 사용하여 데이터를 표현하고 저장하는 Database이다.&lt;/li&gt;
   &lt;li&gt;개체와 관계를 그래프 형태로 표현한 것이므로 관계형 모델이라고 할 수 있으며, 데이터 간의 관계가 탐색의 키일 경우에 적합하다.&lt;/li&gt;
   &lt;li&gt;페이스북이나 트위터 같은 소셜 네트워크에서 적합하며, 연관된 데이터를 추천해주는 추천 엔진이나 패턴 인식 등의 데이터베이스로도 적합하다.&lt;/li&gt;
-  &lt;li&gt;NoSQL Graph Model: Neo4J.&lt;/li&gt;
+  &lt;li&gt;NoSQL Graph Model: Neo4j.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;3-rdbms와-nosql의-장점과-단점&quot;&gt;3. RDBMS와 NoSQL의 장점과 단점&lt;/h2&gt;
