@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-23T21:55:55+09:00</updated>
+  <updated>2023-05-03T16:05:10+09:00</updated>
   <id>http://localhost:4000/tag/cs/feed.xml</id>
 
   
@@ -30,6 +30,193 @@
   
   
 
+  
+    <entry>
+      <title type="html">cs - DATABASE - Difference Sharding and Partitioning</title>
+      <link href="http://localhost:4000/tag/cs-5" rel="alternate" type="text/html" title="cs - DATABASE - Difference Sharding and Partitioning" />
+      <published>2023-05-03T09:40:00+09:00</published>
+      <updated>2023-05-03T09:40:00+09:00</updated>
+      <id>http://localhost:4000/tag/cs-5</id>
+      <content type="html" xml:base="http://localhost:4000/tag/cs-5">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - Hyper-parameter&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;database-sharding-vs-partitioning-whats-the-difference&quot;&gt;Database Sharding vs. Partitioning: What’s the Difference?&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction:&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sharding and Partitioning are both related to breaking up a large data set into smaller subsets.&lt;/li&gt;
+  &lt;li&gt;The difference is that sharding implies the data is spread across multiple computers while partitioning does not.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-what-is-partitioning&quot;&gt;1. What is Partitioning?&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Partitioning is the database process where very large tables are divied into multiple smaller parts.&lt;/li&gt;
+  &lt;li&gt;it’s more a generic term for dividing data across tables or databases.&lt;/li&gt;
+  &lt;li&gt;The main goal of partitioning is to aid in maintenance of large tables and to reduce the overall response time to read and load data for particular SQL operations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;11vertical-partitioning&quot;&gt;1.1.Vertical Partitioning&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vertical table partitioning is mostly used to increase SQL Server performance especially in cases where a query retrieves all columns from a table that contains a number of very wide text or BLOB columns.&lt;/li&gt;
+  &lt;li&gt;In this case to reduce access times the BLOB columns can be split to its own table.&lt;/li&gt;
+  &lt;li&gt;Another example is to restrict access to sensitive data (exaple, passwords, salary information etc.)&lt;/li&gt;
+  &lt;li&gt;Vertical partitioning splits a table into two or more tables containing different columns.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-shardinghorizontal-partitioning&quot;&gt;2. Sharding(Horizontal Partitioning)&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A type of horizontal partitioning that splits large database into smaller components, which are faster and easier to manage.&lt;/li&gt;
+  &lt;li&gt;In other words, Splitting up a large table of data horizontally i.e. row-wise.&lt;/li&gt;
+  &lt;li&gt;As both the database size and number of transactions increase, so does the response time of querying the database.&lt;/li&gt;
+  &lt;li&gt;Costs associated with maintaining a huge database can also skyrocket due to the number and quality of computers you need to manage your workload.&lt;/li&gt;
+  &lt;li&gt;Data shards, on the other hand, have fewer hardware and software requirements and can be managed on less expensive servers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;21-advantages-of-sharding&quot;&gt;2.1. Advantages of Sharding&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;211-solve-scalability-issue&quot;&gt;2.1.1. Solve Scalability Issue:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;With a single database server architecture any application experiences performance degradation.&lt;/li&gt;
+  &lt;li&gt;At some point, we will be running out of disk space.&lt;/li&gt;
+  &lt;li&gt;Database sharding fixes all these issues by partitioning the data across multiple machines.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;212-high-availability&quot;&gt;2.1.2. High Availability:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If an outage happens in sharded  architecture, then only some specific shards will be down.&lt;/li&gt;
+  &lt;li&gt;All the ohther shards will continue the operation and the entire application won’t be unavailable for the users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;213-speed-up-query-response-time&quot;&gt;2.1.3. Speed Up Query Response Time:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In a sharded database a query has to go through fewer rows, and we receive the response in less time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;214-more-write-bandwidth&quot;&gt;2.1.4. More Write Bandwidth:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For many applications writings is a major bottleneck.&lt;/li&gt;
+  &lt;li&gt;With no master database serializing writes sharded archietecure allows we to write in parallel and increase our write throughtput.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;215-scaling-out&quot;&gt;2.1.5. Scaling Out:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sharding a database facilitates horizontal scaling, known as scaling out.&lt;/li&gt;
+  &lt;li&gt;In horizontal scaling, we add more machines in the network and distribute the load and these machines for faster processing and response.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;22-disadvantages-of-sharding&quot;&gt;2.2. Disadvantages of Sharding&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;221-adds-comlexity-in-the-system&quot;&gt;2.2.1 Adds Comlexity in the System:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It’s a complicated task and if it’s not implemented properly then we may lose the data or get corrupt tables in our database.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;222-reblancing-data&quot;&gt;2.2.2. Reblancing Data:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In a sharded database architecure, somtimes shards become unbalanced and may create database hotspot.&lt;/li&gt;
+  &lt;li&gt;To overcome this problem and to rebalance the data we need to do re-sharding for even data distribution.&lt;/li&gt;
+  &lt;li&gt;Moving data from one shard to another shard is not a good idea beacause it requires a lot of downtime.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;223-joining-data-from-multiple-shards-is-expensive&quot;&gt;2.2.3. Joining Data from Multiple Shards is Expensive:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In sharded architecture, we need to pull the data from different shards, and we need to perform joins across multiple networked servers.&lt;/li&gt;
+  &lt;li&gt;We can pull out the data and join the data across the network.&lt;/li&gt;
+  &lt;li&gt;This is going to be an expensive and time-consuming process.&lt;/li&gt;
+  &lt;li&gt;It adds latency to our system.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;224-no-native-support&quot;&gt;2.2.4. No Native Support:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sharding is not natively supported by every database engine.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reference-links&quot;&gt;Reference Links:&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.singlestore.com/blog/database-sharding-vs-partitioning-whats-the-difference/&quot;&gt;reference 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@nishantparmar/distribute-data-replication-partitioning-and-sharding-920a71481c1c&quot;&gt;reference 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.macrometa.com/distributed-data/sharding-vs-partitioning&quot;&gt;reference 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kcw0331</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cs" />
+      
+
+      
+        <summary type="html">CS 스터디 공부 목록 CS - Hyper-parameter</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">cs - Database RDBMS And NoSQL</title>
