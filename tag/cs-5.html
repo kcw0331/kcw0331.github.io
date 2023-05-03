@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="꿈을 향해 나아가자!" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cs 5 - 꿈을 향해 나아가자!" />
-    <meta property="og:description" content="CS 스터디 공부 목록 CS - Hyper-parameter Database Sharding vs. Partitioning: What’s the Difference? Introduction: Sharding and Partitioning are both related to breaking up a large data set into smaller subsets. The difference is that sharding implies the data is spread across multiple computers while partitioning does not. 1. What" />
+    <meta property="og:description" content="CS 스터디 공부 목록 CS - Hyper-parameter Database Sharding vs. Partitioning: What’s the Difference? Introduction: Grewing size of the service, vary and many Tables eixisted. VLDB (Very Large DBMS) DBMSs that make it difficult to fit the entire DB into one DBMS have naturally emerged, and as one DBMS manages" />
     <meta property="og:url" content="http://localhost:4000/tag/cs-5" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/BE-Computer-Science.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Cs" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Cs 5 - 꿈을 향해 나아가자!" />
-    <meta name="twitter:description" content="CS 스터디 공부 목록 CS - Hyper-parameter Database Sharding vs. Partitioning: What’s the Difference? Introduction: Sharding and Partitioning are both related to breaking up a large data set into smaller subsets. The difference is that sharding implies the data is spread across multiple computers while partitioning does not. 1. What" />
+    <meta name="twitter:description" content="CS 스터디 공부 목록 CS - Hyper-parameter Database Sharding vs. Partitioning: What’s the Difference? Introduction: Grewing size of the service, vary and many Tables eixisted. VLDB (Very Large DBMS) DBMSs that make it difficult to fit the entire DB into one DBMS have naturally emerged, and as one DBMS manages" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/BE-Computer-Science.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/tag/cs-5"
     },
-    "description": "CS 스터디 공부 목록 CS - Hyper-parameter Database Sharding vs. Partitioning: What’s the Difference? Introduction: Sharding and Partitioning are both related to breaking up a large data set into smaller subsets. The difference is that sharding implies the data is spread across multiple computers while partitioning does not. 1. What"
+    "description": "CS 스터디 공부 목록 CS - Hyper-parameter Database Sharding vs. Partitioning: What’s the Difference? Introduction: Grewing size of the service, vary and many Tables eixisted. VLDB (Very Large DBMS) DBMSs that make it difficult to fit the entire DB into one DBMS have naturally emerged, and as one DBMS manages"
 }
     </script>
 
@@ -219,6 +219,9 @@ into the {body} of the default.hbs template -->
 </p>
 
 <ul>
+  <li>Grewing size of the service, vary and many Tables eixisted.</li>
+  <li>VLDB (Very Large DBMS) DBMSs that make it difficult to fit the entire DB into one DBMS have naturally emerged, and as one DBMS manages many tables, a slowdown issue occurs.</li>
+  <li>One way to address these issues is through partitioning.</li>
   <li>Sharding and Partitioning are both related to breaking up a large data set into smaller subsets.</li>
   <li>The difference is that sharding implies the data is spread across multiple computers while partitioning does not.</li>
 </ul>
@@ -233,7 +236,7 @@ into the {body} of the default.hbs template -->
   <li>The main goal of partitioning is to aid in maintenance of large tables and to reduce the overall response time to read and load data for particular SQL operations.</li>
 </ul>
 
-<h3 id="11vertical-partitioning">1.1.Vertical Partitioning</h3>
+<h2 id="11vertical-partitioning">1.1.Vertical Partitioning</h2>
 <p>
 </p>
 
@@ -244,7 +247,45 @@ into the {body} of the default.hbs template -->
   <li>Vertical partitioning splits a table into two or more tables containing different columns.</li>
 </ul>
 
-<h2 id="2-shardinghorizontal-partitioning">2. Sharding(Horizontal Partitioning)</h2>
+<h2 id="12-advantage">1.2. Advantage</h2>
+<p>
+</p>
+
+<h3 id="121-availability">1.2.1. Availability</h3>
+<p>
+</p>
+
+<ul>
+  <li>Physical partitioning reduces the likelihood of overall data corruption and improves data availability.</li>
+</ul>
+
+<h3 id="122-manageability">1.2.2. Manageability</h3>
+<p>
+</p>
+
+<ul>
+  <li>Eliminates large tables for easier management.</li>
+</ul>
+
+<h3 id="123-performance">1.2.3. Performance</h3>
+<p>
+</p>
+
+<ul>
+  <li>Improves the performance of certain DMLs and queries, primarily in large data write environments.</li>
+  <li>Reduces contention in OLTP systems with many inserts by distributing insert operations to separate partitions.</li>
+</ul>
+
+<h2 id="13-disadvantages">1.3. Disadvantages</h2>
+<p>
+</p>
+
+<ul>
+  <li>Increases the cost of joins between tables.</li>
+  <li>We cannot partition tables and indexes separately. Tables and indexes must be partitioned together.</li>
+</ul>
+
+<h2 id="2--what-is-shardinghorizontal-partitioning">2.  What is Sharding(Horizontal Partitioning)?</h2>
 <p>
 </p>
 
@@ -354,6 +395,7 @@ into the {body} of the default.hbs template -->
   <li><a href="https://www.singlestore.com/blog/database-sharding-vs-partitioning-whats-the-difference/">reference 1</a></li>
   <li><a href="https://medium.com/@nishantparmar/distribute-data-replication-partitioning-and-sharding-920a71481c1c">reference 2</a></li>
   <li><a href="https://www.macrometa.com/distributed-data/sharding-vs-partitioning">reference 3</a></li>
+  <li><a href="https://nesoy.github.io/articles/2018-02/Database-Partitioning">reference 4</a></li>
 </ul>
 
                 </div>

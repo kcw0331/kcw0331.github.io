@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/kcw0331/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-03T16:05:10+09:00</updated>
+  <updated>2023-05-03T19:43:04+09:00</updated>
   <id>http://localhost:4000/author/kcw0331/feed.xml</id>
 
   
@@ -55,6 +55,9 @@
 &lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Grewing size of the service, vary and many Tables eixisted.&lt;/li&gt;
+  &lt;li&gt;VLDB (Very Large DBMS) DBMSs that make it difficult to fit the entire DB into one DBMS have naturally emerged, and as one DBMS manages many tables, a slowdown issue occurs.&lt;/li&gt;
+  &lt;li&gt;One way to address these issues is through partitioning.&lt;/li&gt;
   &lt;li&gt;Sharding and Partitioning are both related to breaking up a large data set into smaller subsets.&lt;/li&gt;
   &lt;li&gt;The difference is that sharding implies the data is spread across multiple computers while partitioning does not.&lt;/li&gt;
 &lt;/ul&gt;
@@ -69,7 +72,7 @@
   &lt;li&gt;The main goal of partitioning is to aid in maintenance of large tables and to reduce the overall response time to read and load data for particular SQL operations.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;11vertical-partitioning&quot;&gt;1.1.Vertical Partitioning&lt;/h3&gt;
+&lt;h2 id=&quot;11vertical-partitioning&quot;&gt;1.1.Vertical Partitioning&lt;/h2&gt;
 &lt;p&gt;
 &lt;/p&gt;
 
@@ -80,7 +83,45 @@
   &lt;li&gt;Vertical partitioning splits a table into two or more tables containing different columns.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;2-shardinghorizontal-partitioning&quot;&gt;2. Sharding(Horizontal Partitioning)&lt;/h2&gt;
+&lt;h2 id=&quot;12-advantage&quot;&gt;1.2. Advantage&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;121-availability&quot;&gt;1.2.1. Availability&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Physical partitioning reduces the likelihood of overall data corruption and improves data availability.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;122-manageability&quot;&gt;1.2.2. Manageability&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Eliminates large tables for easier management.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;123-performance&quot;&gt;1.2.3. Performance&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Improves the performance of certain DMLs and queries, primarily in large data write environments.&lt;/li&gt;
+  &lt;li&gt;Reduces contention in OLTP systems with many inserts by distributing insert operations to separate partitions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;13-disadvantages&quot;&gt;1.3. Disadvantages&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increases the cost of joins between tables.&lt;/li&gt;
+  &lt;li&gt;We cannot partition tables and indexes separately. Tables and indexes must be partitioned together.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2--what-is-shardinghorizontal-partitioning&quot;&gt;2.  What is Sharding(Horizontal Partitioning)?&lt;/h2&gt;
 &lt;p&gt;
 &lt;/p&gt;
 
@@ -190,6 +231,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.singlestore.com/blog/database-sharding-vs-partitioning-whats-the-difference/&quot;&gt;reference 1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/@nishantparmar/distribute-data-replication-partitioning-and-sharding-920a71481c1c&quot;&gt;reference 2&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.macrometa.com/distributed-data/sharding-vs-partitioning&quot;&gt;reference 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nesoy.github.io/articles/2018-02/Database-Partitioning&quot;&gt;reference 4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
