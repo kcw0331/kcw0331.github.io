@@ -8,6 +8,31 @@
     
       
       <item>
+        <title>cs - NETWROK - The process of making a request to the DNS server</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./cs-1&quot;&gt;CS - Hyper-parameter&lt;/a&gt;&lt;/li&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230117)&quot;&gt;Coding - 순차 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./coding-thiscoding(20230118)&quot;&gt;Coding - 이진 탐색&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(2)&quot;&gt;Msai - 1주차(2)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;!--    &lt;li&gt;&lt;a href=&quot;./msai-1weeks(3)&quot;&gt;Msai - 1주차(3)&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-웹사이트에-접속할-때-무슨-일이-일이-일어나는지-설명해-보세요&quot;&gt;1. 웹사이트에 접속할 때 무슨 일이 일이 일어나는지 설명해 보세요.&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 10 May 2023 09:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/tag/cs-6</link>
+        <guid isPermaLink="true">http://localhost:4000/tag/cs-6</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>cs - DATABASE - Difference Sharding and Partitioning</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;CS 스터디 공부 목록 &lt;/span&gt;&lt;/p&gt;
